@@ -445,8 +445,7 @@ function tokenizer($TEXT) {
                                     break
                                   }
                                 } else if(closing_multiline) {
-                                  ret += quote + quote
-                                  next(true)
+                                  ret += quote + ch
                                   closing_multiline = false
                                   continue
                                 }

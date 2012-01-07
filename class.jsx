@@ -22,3 +22,5 @@ class Cat extends Mammal {
 var cat = new Cat
 
 console.log(cat.say_hi())
+
+console.log(""" say "hi" """ + ''' "say 'bye'" ''')

@@ -12,7 +12,7 @@ Well, it turns out, I really don't want to change that much. I've tried CoffeeSc
 a syntactic sugar headache. Maybe I can't help myself: I just really like JavaScript the way it is!
 
 That said, I recently saw @jashkenas propose a [simple class syntax](https://gist.github.com/1329619)
-that desugars nicely to ES3/5. I've loosely adapted it here, along with two other changes.
+that desugars nicely to ES3/5. I've loosely adapted it here, along with three other changes.
 
 ## THE CLASS SYNTAX
 
@@ -116,7 +116,8 @@ An example:
 
 When used in a unary position, the `colon` binds the function to the right to the current value of `this`.
 
-````
+````javascript
+
 var x = {
     messageFactory: function() {
         return :function() {
@@ -132,7 +133,7 @@ var x = {
 It binds tighter than most unary operations (due to a gross, hacky solution), so you can write functions like this:
 
 
-````
+````javascript
 
 class Parent {
     init:function(name, age) {
@@ -148,6 +149,20 @@ class Child extends Parent {
         :Child.superclass.init(name, age)
     }
 }
+
+````
+
+## Multiline Strings
+
+Just adds multiline string support:
+
+````javascript
+
+var myString = """
+    hi there
+""" + '''
+    'lol'
+'''
 
 ````
 
