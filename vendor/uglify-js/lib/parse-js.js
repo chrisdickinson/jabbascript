@@ -431,9 +431,26 @@ function tokenizer($TEXT) {
 
         function read_string() {
                 return with_eof_error("Unterminated string constant", function(){
-                        var quote = next(), ret = "";
+                        var quote = next(), ret = "", is_multiline = false, closing_multiline;
                         for (;;) {
                                 var ch = next(true);
+
+                                if (ch == quote && peek() === quote) {
+                                  if(ret.length === 0) {
+                                    is_multiline = true
+                                    next(true)
+                                    continue
+                                  } else if(closing_multiline) {
+                                    next(true)
+                                    break
+                                  }
+                                } else if(closing_multiline) {
+                                  ret += quote + quote
+                                  next(true)
+                                  closing_multiline = false
+                                  continue
+                                }
+
                                 if (ch == "\\") {
                                         // read OctalEscapeSequence (XXX: deprecated if "strict mode")
                                         // https://github.com/mishoo/UglifyJS/issues/178
@@ -452,7 +469,13 @@ function tokenizer($TEXT) {
                                         if (octal_len > 0) ch = String.fromCharCode(parseInt(ch, 8));
                                         else ch = read_escaped_char(true);
                                 }
-                                else if (ch == quote) break;
+                                else if (ch == quote) {
+                                  if(!is_multiline)
+                                    break;
+
+                                  closing_multiline = true
+                                  continue
+                                }
                                 ret += ch;
                         }
                         return token("string", ret);
@@ -1204,7 +1227,6 @@ function parse($TEXT, exigent_mode, embed_tokens) {
 
 
                 if (is('punc', ':') && !S.token.nlb && !S.conditional) {
-                        console.log(S)
                         next();
                         return subscripts(as("colon", expr, as_name()), allow_calls)
                 }

@@ -3,7 +3,9 @@ class Mammal {
     this.saying = saying
   }
 , say_hi:function() {
-    return this.saying
+    return this.saying + """
+      hello world
+    """
   }
 }
 
