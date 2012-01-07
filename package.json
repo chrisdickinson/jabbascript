@@ -1,0 +1,29 @@
+{
+    "name" : "jabbascript",
+    "description" : "an experiment in lightweight syntactical additions to javascript",
+    "version" : "0.0.1",
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/chrisdickinson/jabbascript.git"
+    },
+    "main" : "./index.js",
+    "keywords" : [
+        "javascript",
+        "language",
+        "compiler",
+        "jabbascript"
+    ],
+    "directories" : {
+        "lib" : "."
+    },
+    "engines" : {
+        "node" : ">=0.6.0"
+    },
+    "license" : "MIT",
+    "author" : {
+        "name" : "Chris Dickinson",
+        "email" : "chris@neversaw.us",
+        "url" : "http://neversaw.us/"
+    }
+}
+

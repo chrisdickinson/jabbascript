@@ -1,0 +1,5599 @@
+skipping [ 'toplevel', [ [ [Object], [Object] ] ] ]
+skipping toplevel
+skipping [ [ { name: 'var', start: [Object], end: [Object] },
+    [ [Object] ] ] ]
+[ [ 'x', [ [Object], [Object] ] ] ]
+skipping { name: 'var',
+  start: 
+   { type: 'keyword',
+     value: 'var',
+     line: 0,
+     col: 0,
+     pos: 0,
+     endpos: 3,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 7,
+     col: 0,
+     pos: 110,
+     endpos: 111,
+     nlb: true,
+     comments_before: [] } }
+skipping var
+skipping { type: 'keyword',
+  value: 'var',
+  line: 0,
+  col: 0,
+  pos: 0,
+  endpos: 3,
+  nlb: false,
+  comments_before: [] }
+skipping keyword
+skipping var
+skipping 0
+skipping 0
+skipping 0
+skipping 3
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 7,
+  col: 0,
+  pos: 110,
+  endpos: 111,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 7
+skipping 0
+skipping 110
+skipping 111
+skipping true
+skipping []
+skipping [ [ 'x', [ [Object], [Object] ] ] ]
+skipping [ 'x',
+  [ { name: 'object', start: [Object], end: [Object] },
+    [ [Object], [Object] ] ] ]
+skipping x
+[ [ 'y', [ [Object], null, [], [Object] ] ],
+  [ 'z', [ [Object], 3 ] ] ]
+skipping { name: 'object',
+  start: 
+   { type: 'punc',
+     value: '{',
+     line: 0,
+     col: 8,
+     pos: 8,
+     endpos: 9,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 7,
+     col: 0,
+     pos: 110,
+     endpos: 111,
+     nlb: true,
+     comments_before: [] } }
+skipping object
+skipping { type: 'punc',
+  value: '{',
+  line: 0,
+  col: 8,
+  pos: 8,
+  endpos: 9,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping {
+skipping 0
+skipping 8
+skipping 8
+skipping 9
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 7,
+  col: 0,
+  pos: 110,
+  endpos: 111,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 7
+skipping 0
+skipping 110
+skipping 111
+skipping true
+skipping []
+skipping [ [ 'y', [ [Object], null, [], [Object] ] ],
+  [ 'z', [ [Object], 3 ] ] ]
+skipping [ 'y',
+  [ { name: 'function', start: [Object], end: [Object] },
+    null,
+    [],
+    [ [Object] ] ] ]
+skipping y
+null
+skipping { name: 'function',
+  start: 
+   { type: 'keyword',
+     value: 'function',
+     line: 1,
+     col: 7,
+     pos: 17,
+     endpos: 25,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 5,
+     col: 4,
+     pos: 99,
+     endpos: 100,
+     nlb: true,
+     comments_before: [] } }
+skipping function
+skipping { type: 'keyword',
+  value: 'function',
+  line: 1,
+  col: 7,
+  pos: 17,
+  endpos: 25,
+  nlb: false,
+  comments_before: [] }
+skipping keyword
+skipping function
+skipping 1
+skipping 7
+skipping 17
+skipping 25
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 5,
+  col: 4,
+  pos: 99,
+  endpos: 100,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 5
+skipping 4
+skipping 99
+skipping 100
+skipping true
+skipping []
+skipping null
+skipping []
+skipping [ [ { name: 'return', start: [Object], end: [Object] },
+    [ [Object], ':', [Object] ] ] ]
+[ { name: 'unary-prefix',
+    start: 
+     { type: 'punc',
+       value: ':',
+       line: 2,
+       col: 15,
+       pos: 45,
+       endpos: 46,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'punc',
+       value: '}',
+       line: 4,
+       col: 8,
+       pos: 93,
+       endpos: 94,
+       nlb: true,
+       comments_before: [] } },
+  ':',
+  [ { name: 'function', start: [Object], end: [Object] },
+    null,
+    [],
+    [ [Object] ] ] ]
+skipping { name: 'return',
+  start: 
+   { type: 'keyword',
+     value: 'return',
+     line: 2,
+     col: 8,
+     pos: 38,
+     endpos: 44,
+     nlb: true,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 4,
+     col: 8,
+     pos: 93,
+     endpos: 94,
+     nlb: true,
+     comments_before: [] } }
+skipping return
+skipping { type: 'keyword',
+  value: 'return',
+  line: 2,
+  col: 8,
+  pos: 38,
+  endpos: 44,
+  nlb: true,
+  comments_before: [] }
+skipping keyword
+skipping return
+skipping 2
+skipping 8
+skipping 38
+skipping 44
+skipping true
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 4,
+  col: 8,
+  pos: 93,
+  endpos: 94,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 4
+skipping 8
+skipping 93
+skipping 94
+skipping true
+skipping []
+:
+okay (function(){return this.z})
+skipping [ 'toplevel', [ [ [Object], [Object] ] ] ]
+skipping toplevel
+skipping [ [ { name: 'stat', start: [Object], end: [Object] },
+    [ [Object], null, [], [Object] ] ] ]
+[ { name: 'function',
+    start: 
+     { type: 'keyword',
+       value: 'function',
+       line: 0,
+       col: 2,
+       pos: 2,
+       endpos: 10,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'punc',
+       value: '}',
+       line: 0,
+       col: 26,
+       pos: 26,
+       endpos: 27,
+       nlb: false,
+       comments_before: [] } },
+  null,
+  [],
+  [ [ [Object], [Object] ] ] ]
+skipping { name: 'stat',
+  start: 
+   { type: 'punc',
+     value: '(',
+     line: 0,
+     col: 0,
+     pos: 0,
+     endpos: 1,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 0,
+     col: 28,
+     pos: 28,
+     endpos: 29,
+     nlb: false,
+     comments_before: [] } }
+skipping stat
+skipping { type: 'punc',
+  value: '(',
+  line: 0,
+  col: 0,
+  pos: 0,
+  endpos: 1,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping (
+skipping 0
+skipping 0
+skipping 0
+skipping 1
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 0,
+  col: 28,
+  pos: 28,
+  endpos: 29,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 0
+skipping 28
+skipping 28
+skipping 29
+skipping false
+skipping []
+null
+skipping { name: 'function',
+  start: 
+   { type: 'keyword',
+     value: 'function',
+     line: 0,
+     col: 2,
+     pos: 2,
+     endpos: 10,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 0,
+     col: 26,
+     pos: 26,
+     endpos: 27,
+     nlb: false,
+     comments_before: [] } }
+skipping function
+skipping { type: 'keyword',
+  value: 'function',
+  line: 0,
+  col: 2,
+  pos: 2,
+  endpos: 10,
+  nlb: false,
+  comments_before: [] }
+skipping keyword
+skipping function
+skipping 0
+skipping 2
+skipping 2
+skipping 10
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 0,
+  col: 26,
+  pos: 26,
+  endpos: 27,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 0
+skipping 26
+skipping 26
+skipping 27
+skipping false
+skipping []
+skipping null
+skipping []
+skipping [ [ { name: 'return', start: [Object], end: [Object] },
+    [ [Object], [Object], 'z' ] ] ]
+[ { name: 'dot',
+    start: 
+     { type: 'name',
+       value: 'this',
+       line: 0,
+       col: 20,
+       pos: 20,
+       endpos: 24,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'name',
+       value: 'z',
+       line: 0,
+       col: 25,
+       pos: 25,
+       endpos: 26,
+       nlb: false,
+       comments_before: [] } },
+  [ 'name', 'this' ],
+  'z' ]
+skipping { name: 'return',
+  start: 
+   { type: 'keyword',
+     value: 'return',
+     line: 0,
+     col: 13,
+     pos: 13,
+     endpos: 19,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'z',
+     line: 0,
+     col: 25,
+     pos: 25,
+     endpos: 26,
+     nlb: false,
+     comments_before: [] } }
+skipping return
+skipping { type: 'keyword',
+  value: 'return',
+  line: 0,
+  col: 13,
+  pos: 13,
+  endpos: 19,
+  nlb: false,
+  comments_before: [] }
+skipping keyword
+skipping return
+skipping 0
+skipping 13
+skipping 13
+skipping 19
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'z',
+  line: 0,
+  col: 25,
+  pos: 25,
+  endpos: 26,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping z
+skipping 0
+skipping 25
+skipping 25
+skipping 26
+skipping false
+skipping []
+[ 'name', 'this' ]
+skipping { name: 'dot',
+  start: 
+   { type: 'name',
+     value: 'this',
+     line: 0,
+     col: 20,
+     pos: 20,
+     endpos: 24,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'z',
+     line: 0,
+     col: 25,
+     pos: 25,
+     endpos: 26,
+     nlb: false,
+     comments_before: [] } }
+skipping dot
+skipping { type: 'name',
+  value: 'this',
+  line: 0,
+  col: 20,
+  pos: 20,
+  endpos: 24,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping this
+skipping 0
+skipping 20
+skipping 20
+skipping 24
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'z',
+  line: 0,
+  col: 25,
+  pos: 25,
+  endpos: 26,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping z
+skipping 0
+skipping 25
+skipping 25
+skipping 26
+skipping false
+skipping []
+skipping [ 'name', 'this' ]
+skipping name
+skipping this
+skipping z
+skipping { name: 'unary-prefix',
+  start: 
+   { type: 'punc',
+     value: ':',
+     line: 2,
+     col: 15,
+     pos: 45,
+     endpos: 46,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 4,
+     col: 8,
+     pos: 93,
+     endpos: 94,
+     nlb: true,
+     comments_before: [] } }
+skipping unary-prefix
+skipping { type: 'punc',
+  value: ':',
+  line: 2,
+  col: 15,
+  pos: 45,
+  endpos: 46,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping :
+skipping 2
+skipping 15
+skipping 45
+skipping 46
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 4,
+  col: 8,
+  pos: 93,
+  endpos: 94,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 4
+skipping 8
+skipping 93
+skipping 94
+skipping true
+skipping []
+skipping :
+null
+skipping { name: 'function',
+  start: 
+   { type: 'keyword',
+     value: 'function',
+     line: 2,
+     col: 16,
+     pos: 46,
+     endpos: 54,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 4,
+     col: 8,
+     pos: 93,
+     endpos: 94,
+     nlb: true,
+     comments_before: [] } }
+skipping function
+skipping { type: 'keyword',
+  value: 'function',
+  line: 2,
+  col: 16,
+  pos: 46,
+  endpos: 54,
+  nlb: false,
+  comments_before: [] }
+skipping keyword
+skipping function
+skipping 2
+skipping 16
+skipping 46
+skipping 54
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 4,
+  col: 8,
+  pos: 93,
+  endpos: 94,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 4
+skipping 8
+skipping 93
+skipping 94
+skipping true
+skipping []
+skipping null
+skipping []
+skipping [ [ { name: 'return', start: [Object], end: [Object] },
+    [ [Object], [Object], 'z' ] ] ]
+[ { name: 'dot',
+    start: 
+     { type: 'name',
+       value: 'this',
+       line: 3,
+       col: 19,
+       pos: 78,
+       endpos: 82,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'name',
+       value: 'z',
+       line: 3,
+       col: 24,
+       pos: 83,
+       endpos: 84,
+       nlb: false,
+       comments_before: [] } },
+  [ 'name', 'this' ],
+  'z' ]
+skipping { name: 'return',
+  start: 
+   { type: 'keyword',
+     value: 'return',
+     line: 3,
+     col: 12,
+     pos: 71,
+     endpos: 77,
+     nlb: true,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'z',
+     line: 3,
+     col: 24,
+     pos: 83,
+     endpos: 84,
+     nlb: false,
+     comments_before: [] } }
+skipping return
+skipping { type: 'keyword',
+  value: 'return',
+  line: 3,
+  col: 12,
+  pos: 71,
+  endpos: 77,
+  nlb: true,
+  comments_before: [] }
+skipping keyword
+skipping return
+skipping 3
+skipping 12
+skipping 71
+skipping 77
+skipping true
+skipping []
+skipping { type: 'name',
+  value: 'z',
+  line: 3,
+  col: 24,
+  pos: 83,
+  endpos: 84,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping z
+skipping 3
+skipping 24
+skipping 83
+skipping 84
+skipping false
+skipping []
+[ 'name', 'this' ]
+skipping { name: 'dot',
+  start: 
+   { type: 'name',
+     value: 'this',
+     line: 3,
+     col: 19,
+     pos: 78,
+     endpos: 82,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'z',
+     line: 3,
+     col: 24,
+     pos: 83,
+     endpos: 84,
+     nlb: false,
+     comments_before: [] } }
+skipping dot
+skipping { type: 'name',
+  value: 'this',
+  line: 3,
+  col: 19,
+  pos: 78,
+  endpos: 82,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping this
+skipping 3
+skipping 19
+skipping 78
+skipping 82
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'z',
+  line: 3,
+  col: 24,
+  pos: 83,
+  endpos: 84,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping z
+skipping 3
+skipping 24
+skipping 83
+skipping 84
+skipping false
+skipping []
+skipping [ 'name', 'this' ]
+skipping name
+skipping this
+skipping z
+skipping [ 'z', [ { name: 'num', start: [Object], end: [Object] }, 3 ] ]
+skipping z
+3
+skipping { name: 'num',
+  start: 
+   { type: 'num',
+     value: 3,
+     line: 6,
+     col: 6,
+     pos: 108,
+     endpos: 109,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'num',
+     value: 3,
+     line: 6,
+     col: 6,
+     pos: 108,
+     endpos: 109,
+     nlb: false,
+     comments_before: [] } }
+skipping num
+skipping { type: 'num',
+  value: 3,
+  line: 6,
+  col: 6,
+  pos: 108,
+  endpos: 109,
+  nlb: false,
+  comments_before: [] }
+skipping num
+skipping 3
+skipping 6
+skipping 6
+skipping 108
+skipping 109
+skipping false
+skipping []
+skipping { type: 'num',
+  value: 3,
+  line: 6,
+  col: 6,
+  pos: 108,
+  endpos: 109,
+  nlb: false,
+  comments_before: [] }
+skipping num
+skipping 3
+skipping 6
+skipping 6
+skipping 108
+skipping 109
+skipping false
+skipping []
+skipping 3
+skipping [ 'toplevel',
+  [ [ [Object], [Object] ],
+    [ [Object], [Object] ],
+    [ [Object], [Object] ],
+    [ [Object], [Object] ] ] ]
+skipping toplevel
+skipping [ [ { name: 'stat', start: [Object], end: [Object] },
+    [ [Object], 'Mammal', null, [Object] ] ],
+  [ { name: 'stat', start: [Object], end: [Object] },
+    [ [Object], 'Cat', [Object], [Object] ] ],
+  [ { name: 'var', start: [Object], end: [Object] },
+    [ [Object], [Object] ] ],
+  [ { name: 'stat', start: [Object], end: [Object] },
+    [ [Object], [Object], [Object] ] ] ]
+[ { name: 'class',
+    start: 
+     { type: 'operator',
+       value: 'class',
+       line: 2,
+       col: 0,
+       pos: 2,
+       endpos: 7,
+       nlb: true,
+       comments_before: [] },
+    end: 
+     { type: 'punc',
+       value: '}',
+       line: 9,
+       col: 0,
+       pos: 122,
+       endpos: 123,
+       nlb: true,
+       comments_before: [] } },
+  'Mammal',
+  null,
+  [ { name: 'object', start: [Object], end: [Object] },
+    [ [Object], [Object] ] ] ]
+skipping { name: 'stat',
+  start: 
+   { type: 'operator',
+     value: 'class',
+     line: 2,
+     col: 0,
+     pos: 2,
+     endpos: 7,
+     nlb: true,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 9,
+     col: 0,
+     pos: 122,
+     endpos: 123,
+     nlb: true,
+     comments_before: [] } }
+skipping stat
+skipping { type: 'operator',
+  value: 'class',
+  line: 2,
+  col: 0,
+  pos: 2,
+  endpos: 7,
+  nlb: true,
+  comments_before: [] }
+skipping operator
+skipping class
+skipping 2
+skipping 0
+skipping 2
+skipping 7
+skipping true
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 9,
+  col: 0,
+  pos: 122,
+  endpos: 123,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 9
+skipping 0
+skipping 122
+skipping 123
+skipping true
+skipping []
+Mammal
+skipping [ 'toplevel', [ [ [Object], [Object] ] ] ]
+skipping toplevel
+skipping [ [ { name: 'stat', start: [Object], end: [Object] },
+    [ [Object], [Object] ] ] ]
+[ { name: 'object',
+    start: 
+     { type: 'punc',
+       value: '{',
+       line: 0,
+       col: 1,
+       pos: 1,
+       endpos: 2,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'punc',
+       value: '}',
+       line: 0,
+       col: 81,
+       pos: 81,
+       endpos: 82,
+       nlb: false,
+       comments_before: [] } },
+  [ [ 'init', [Object] ], [ 'say_hi', [Object] ] ] ]
+skipping { name: 'stat',
+  start: 
+   { type: 'punc',
+     value: '(',
+     line: 0,
+     col: 0,
+     pos: 0,
+     endpos: 1,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 0,
+     col: 82,
+     pos: 82,
+     endpos: 83,
+     nlb: false,
+     comments_before: [] } }
+skipping stat
+skipping { type: 'punc',
+  value: '(',
+  line: 0,
+  col: 0,
+  pos: 0,
+  endpos: 1,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping (
+skipping 0
+skipping 0
+skipping 0
+skipping 1
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 0,
+  col: 82,
+  pos: 82,
+  endpos: 83,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 0
+skipping 82
+skipping 82
+skipping 83
+skipping false
+skipping []
+[ [ 'init', [ [Object], null, [Object], [Object] ] ],
+  [ 'say_hi', [ [Object], null, [], [Object] ] ] ]
+skipping { name: 'object',
+  start: 
+   { type: 'punc',
+     value: '{',
+     line: 0,
+     col: 1,
+     pos: 1,
+     endpos: 2,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 0,
+     col: 81,
+     pos: 81,
+     endpos: 82,
+     nlb: false,
+     comments_before: [] } }
+skipping object
+skipping { type: 'punc',
+  value: '{',
+  line: 0,
+  col: 1,
+  pos: 1,
+  endpos: 2,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping {
+skipping 0
+skipping 1
+skipping 1
+skipping 2
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 0,
+  col: 81,
+  pos: 81,
+  endpos: 82,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 0
+skipping 81
+skipping 81
+skipping 82
+skipping false
+skipping []
+skipping [ [ 'init', [ [Object], null, [Object], [Object] ] ],
+  [ 'say_hi', [ [Object], null, [], [Object] ] ] ]
+skipping [ 'init',
+  [ { name: 'function', start: [Object], end: [Object] },
+    null,
+    [ 'saying' ],
+    [ [Object] ] ] ]
+skipping init
+null
+skipping { name: 'function',
+  start: 
+   { type: 'keyword',
+     value: 'function',
+     line: 0,
+     col: 7,
+     pos: 7,
+     endpos: 15,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 0,
+     col: 42,
+     pos: 42,
+     endpos: 43,
+     nlb: false,
+     comments_before: [] } }
+skipping function
+skipping { type: 'keyword',
+  value: 'function',
+  line: 0,
+  col: 7,
+  pos: 7,
+  endpos: 15,
+  nlb: false,
+  comments_before: [] }
+skipping keyword
+skipping function
+skipping 0
+skipping 7
+skipping 7
+skipping 15
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 0,
+  col: 42,
+  pos: 42,
+  endpos: 43,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 0
+skipping 42
+skipping 42
+skipping 43
+skipping false
+skipping []
+skipping null
+skipping [ 'saying' ]
+skipping saying
+skipping [ [ { name: 'stat', start: [Object], end: [Object] },
+    [ [Object], true, [Object], [Object] ] ] ]
+[ { name: 'assign',
+    start: 
+     { type: 'name',
+       value: 'this',
+       line: 0,
+       col: 24,
+       pos: 24,
+       endpos: 28,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'name',
+       value: 'saying',
+       line: 0,
+       col: 36,
+       pos: 36,
+       endpos: 42,
+       nlb: false,
+       comments_before: [] } },
+  true,
+  [ { name: 'dot', start: [Object], end: [Object] },
+    [ 'name', 'this' ],
+    'saying' ],
+  [ { name: 'name', start: [Object], end: [Object] }, 'saying' ] ]
+skipping { name: 'stat',
+  start: 
+   { type: 'name',
+     value: 'this',
+     line: 0,
+     col: 24,
+     pos: 24,
+     endpos: 28,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'saying',
+     line: 0,
+     col: 36,
+     pos: 36,
+     endpos: 42,
+     nlb: false,
+     comments_before: [] } }
+skipping stat
+skipping { type: 'name',
+  value: 'this',
+  line: 0,
+  col: 24,
+  pos: 24,
+  endpos: 28,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping this
+skipping 0
+skipping 24
+skipping 24
+skipping 28
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'saying',
+  line: 0,
+  col: 36,
+  pos: 36,
+  endpos: 42,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping saying
+skipping 0
+skipping 36
+skipping 36
+skipping 42
+skipping false
+skipping []
+true
+skipping { name: 'assign',
+  start: 
+   { type: 'name',
+     value: 'this',
+     line: 0,
+     col: 24,
+     pos: 24,
+     endpos: 28,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'saying',
+     line: 0,
+     col: 36,
+     pos: 36,
+     endpos: 42,
+     nlb: false,
+     comments_before: [] } }
+skipping assign
+skipping { type: 'name',
+  value: 'this',
+  line: 0,
+  col: 24,
+  pos: 24,
+  endpos: 28,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping this
+skipping 0
+skipping 24
+skipping 24
+skipping 28
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'saying',
+  line: 0,
+  col: 36,
+  pos: 36,
+  endpos: 42,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping saying
+skipping 0
+skipping 36
+skipping 36
+skipping 42
+skipping false
+skipping []
+skipping true
+[ 'name', 'this' ]
+skipping { name: 'dot',
+  start: 
+   { type: 'name',
+     value: 'this',
+     line: 0,
+     col: 24,
+     pos: 24,
+     endpos: 28,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'saying',
+     line: 0,
+     col: 29,
+     pos: 29,
+     endpos: 35,
+     nlb: false,
+     comments_before: [] } }
+skipping dot
+skipping { type: 'name',
+  value: 'this',
+  line: 0,
+  col: 24,
+  pos: 24,
+  endpos: 28,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping this
+skipping 0
+skipping 24
+skipping 24
+skipping 28
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'saying',
+  line: 0,
+  col: 29,
+  pos: 29,
+  endpos: 35,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping saying
+skipping 0
+skipping 29
+skipping 29
+skipping 35
+skipping false
+skipping []
+skipping [ 'name', 'this' ]
+skipping name
+skipping this
+skipping saying
+saying
+skipping { name: 'name',
+  start: 
+   { type: 'name',
+     value: 'saying',
+     line: 0,
+     col: 36,
+     pos: 36,
+     endpos: 42,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'saying',
+     line: 0,
+     col: 36,
+     pos: 36,
+     endpos: 42,
+     nlb: false,
+     comments_before: [] } }
+skipping name
+skipping { type: 'name',
+  value: 'saying',
+  line: 0,
+  col: 36,
+  pos: 36,
+  endpos: 42,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping saying
+skipping 0
+skipping 36
+skipping 36
+skipping 42
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'saying',
+  line: 0,
+  col: 36,
+  pos: 36,
+  endpos: 42,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping saying
+skipping 0
+skipping 36
+skipping 36
+skipping 42
+skipping false
+skipping []
+skipping saying
+skipping [ 'say_hi',
+  [ { name: 'function', start: [Object], end: [Object] },
+    null,
+    [],
+    [ [Object] ] ] ]
+skipping say_hi
+null
+skipping { name: 'function',
+  start: 
+   { type: 'keyword',
+     value: 'function',
+     line: 0,
+     col: 51,
+     pos: 51,
+     endpos: 59,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 0,
+     col: 80,
+     pos: 80,
+     endpos: 81,
+     nlb: false,
+     comments_before: [] } }
+skipping function
+skipping { type: 'keyword',
+  value: 'function',
+  line: 0,
+  col: 51,
+  pos: 51,
+  endpos: 59,
+  nlb: false,
+  comments_before: [] }
+skipping keyword
+skipping function
+skipping 0
+skipping 51
+skipping 51
+skipping 59
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 0,
+  col: 80,
+  pos: 80,
+  endpos: 81,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 0
+skipping 80
+skipping 80
+skipping 81
+skipping false
+skipping []
+skipping null
+skipping []
+skipping [ [ { name: 'return', start: [Object], end: [Object] },
+    [ [Object], [Object], 'saying' ] ] ]
+[ { name: 'dot',
+    start: 
+     { type: 'name',
+       value: 'this',
+       line: 0,
+       col: 69,
+       pos: 69,
+       endpos: 73,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'name',
+       value: 'saying',
+       line: 0,
+       col: 74,
+       pos: 74,
+       endpos: 80,
+       nlb: false,
+       comments_before: [] } },
+  [ 'name', 'this' ],
+  'saying' ]
+skipping { name: 'return',
+  start: 
+   { type: 'keyword',
+     value: 'return',
+     line: 0,
+     col: 62,
+     pos: 62,
+     endpos: 68,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'saying',
+     line: 0,
+     col: 74,
+     pos: 74,
+     endpos: 80,
+     nlb: false,
+     comments_before: [] } }
+skipping return
+skipping { type: 'keyword',
+  value: 'return',
+  line: 0,
+  col: 62,
+  pos: 62,
+  endpos: 68,
+  nlb: false,
+  comments_before: [] }
+skipping keyword
+skipping return
+skipping 0
+skipping 62
+skipping 62
+skipping 68
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'saying',
+  line: 0,
+  col: 74,
+  pos: 74,
+  endpos: 80,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping saying
+skipping 0
+skipping 74
+skipping 74
+skipping 80
+skipping false
+skipping []
+[ 'name', 'this' ]
+skipping { name: 'dot',
+  start: 
+   { type: 'name',
+     value: 'this',
+     line: 0,
+     col: 69,
+     pos: 69,
+     endpos: 73,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'saying',
+     line: 0,
+     col: 74,
+     pos: 74,
+     endpos: 80,
+     nlb: false,
+     comments_before: [] } }
+skipping dot
+skipping { type: 'name',
+  value: 'this',
+  line: 0,
+  col: 69,
+  pos: 69,
+  endpos: 73,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping this
+skipping 0
+skipping 69
+skipping 69
+skipping 73
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'saying',
+  line: 0,
+  col: 74,
+  pos: 74,
+  endpos: 80,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping saying
+skipping 0
+skipping 74
+skipping 74
+skipping 80
+skipping false
+skipping []
+skipping [ 'name', 'this' ]
+skipping name
+skipping this
+skipping saying
+skipping { name: 'class',
+  start: 
+   { type: 'operator',
+     value: 'class',
+     line: 2,
+     col: 0,
+     pos: 2,
+     endpos: 7,
+     nlb: true,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 9,
+     col: 0,
+     pos: 122,
+     endpos: 123,
+     nlb: true,
+     comments_before: [] } }
+skipping class
+skipping { type: 'operator',
+  value: 'class',
+  line: 2,
+  col: 0,
+  pos: 2,
+  endpos: 7,
+  nlb: true,
+  comments_before: [] }
+skipping operator
+skipping class
+skipping 2
+skipping 0
+skipping 2
+skipping 7
+skipping true
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 9,
+  col: 0,
+  pos: 122,
+  endpos: 123,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 9
+skipping 0
+skipping 122
+skipping 123
+skipping true
+skipping []
+skipping Mammal
+skipping null
+[ [ 'init', [ [Object], null, [Object], [Object] ] ],
+  [ 'say_hi', [ [Object], null, [], [Object] ] ] ]
+skipping { name: 'object',
+  start: 
+   { type: 'punc',
+     value: '{',
+     line: 2,
+     col: 13,
+     pos: 15,
+     endpos: 16,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 9,
+     col: 0,
+     pos: 122,
+     endpos: 123,
+     nlb: true,
+     comments_before: [] } }
+skipping object
+skipping { type: 'punc',
+  value: '{',
+  line: 2,
+  col: 13,
+  pos: 15,
+  endpos: 16,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping {
+skipping 2
+skipping 13
+skipping 15
+skipping 16
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 9,
+  col: 0,
+  pos: 122,
+  endpos: 123,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 9
+skipping 0
+skipping 122
+skipping 123
+skipping true
+skipping []
+skipping [ [ 'init', [ [Object], null, [Object], [Object] ] ],
+  [ 'say_hi', [ [Object], null, [], [Object] ] ] ]
+skipping [ 'init',
+  [ { name: 'function', start: [Object], end: [Object] },
+    null,
+    [ 'saying' ],
+    [ [Object] ] ] ]
+skipping init
+null
+skipping { name: 'function',
+  start: 
+   { type: 'keyword',
+     value: 'function',
+     line: 3,
+     col: 8,
+     pos: 25,
+     endpos: 33,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 5,
+     col: 2,
+     pos: 71,
+     endpos: 72,
+     nlb: true,
+     comments_before: [] } }
+skipping function
+skipping { type: 'keyword',
+  value: 'function',
+  line: 3,
+  col: 8,
+  pos: 25,
+  endpos: 33,
+  nlb: false,
+  comments_before: [] }
+skipping keyword
+skipping function
+skipping 3
+skipping 8
+skipping 25
+skipping 33
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 5,
+  col: 2,
+  pos: 71,
+  endpos: 72,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 5
+skipping 2
+skipping 71
+skipping 72
+skipping true
+skipping []
+skipping null
+skipping [ 'saying' ]
+skipping saying
+skipping [ [ { name: 'stat', start: [Object], end: [Object] },
+    [ [Object], true, [Object], [Object] ] ] ]
+[ { name: 'assign',
+    start: 
+     { type: 'name',
+       value: 'this',
+       line: 4,
+       col: 4,
+       pos: 48,
+       endpos: 52,
+       nlb: true,
+       comments_before: [] },
+    end: 
+     { type: 'name',
+       value: 'saying',
+       line: 4,
+       col: 18,
+       pos: 62,
+       endpos: 68,
+       nlb: false,
+       comments_before: [] } },
+  true,
+  [ { name: 'dot', start: [Object], end: [Object] },
+    [ 'name', 'this' ],
+    'saying' ],
+  [ { name: 'name', start: [Object], end: [Object] }, 'saying' ] ]
+skipping { name: 'stat',
+  start: 
+   { type: 'name',
+     value: 'this',
+     line: 4,
+     col: 4,
+     pos: 48,
+     endpos: 52,
+     nlb: true,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'saying',
+     line: 4,
+     col: 18,
+     pos: 62,
+     endpos: 68,
+     nlb: false,
+     comments_before: [] } }
+skipping stat
+skipping { type: 'name',
+  value: 'this',
+  line: 4,
+  col: 4,
+  pos: 48,
+  endpos: 52,
+  nlb: true,
+  comments_before: [] }
+skipping name
+skipping this
+skipping 4
+skipping 4
+skipping 48
+skipping 52
+skipping true
+skipping []
+skipping { type: 'name',
+  value: 'saying',
+  line: 4,
+  col: 18,
+  pos: 62,
+  endpos: 68,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping saying
+skipping 4
+skipping 18
+skipping 62
+skipping 68
+skipping false
+skipping []
+true
+skipping { name: 'assign',
+  start: 
+   { type: 'name',
+     value: 'this',
+     line: 4,
+     col: 4,
+     pos: 48,
+     endpos: 52,
+     nlb: true,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'saying',
+     line: 4,
+     col: 18,
+     pos: 62,
+     endpos: 68,
+     nlb: false,
+     comments_before: [] } }
+skipping assign
+skipping { type: 'name',
+  value: 'this',
+  line: 4,
+  col: 4,
+  pos: 48,
+  endpos: 52,
+  nlb: true,
+  comments_before: [] }
+skipping name
+skipping this
+skipping 4
+skipping 4
+skipping 48
+skipping 52
+skipping true
+skipping []
+skipping { type: 'name',
+  value: 'saying',
+  line: 4,
+  col: 18,
+  pos: 62,
+  endpos: 68,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping saying
+skipping 4
+skipping 18
+skipping 62
+skipping 68
+skipping false
+skipping []
+skipping true
+[ 'name', 'this' ]
+skipping { name: 'dot',
+  start: 
+   { type: 'name',
+     value: 'this',
+     line: 4,
+     col: 4,
+     pos: 48,
+     endpos: 52,
+     nlb: true,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'saying',
+     line: 4,
+     col: 9,
+     pos: 53,
+     endpos: 59,
+     nlb: false,
+     comments_before: [] } }
+skipping dot
+skipping { type: 'name',
+  value: 'this',
+  line: 4,
+  col: 4,
+  pos: 48,
+  endpos: 52,
+  nlb: true,
+  comments_before: [] }
+skipping name
+skipping this
+skipping 4
+skipping 4
+skipping 48
+skipping 52
+skipping true
+skipping []
+skipping { type: 'name',
+  value: 'saying',
+  line: 4,
+  col: 9,
+  pos: 53,
+  endpos: 59,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping saying
+skipping 4
+skipping 9
+skipping 53
+skipping 59
+skipping false
+skipping []
+skipping [ 'name', 'this' ]
+skipping name
+skipping this
+skipping saying
+saying
+skipping { name: 'name',
+  start: 
+   { type: 'name',
+     value: 'saying',
+     line: 4,
+     col: 18,
+     pos: 62,
+     endpos: 68,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'saying',
+     line: 4,
+     col: 18,
+     pos: 62,
+     endpos: 68,
+     nlb: false,
+     comments_before: [] } }
+skipping name
+skipping { type: 'name',
+  value: 'saying',
+  line: 4,
+  col: 18,
+  pos: 62,
+  endpos: 68,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping saying
+skipping 4
+skipping 18
+skipping 62
+skipping 68
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'saying',
+  line: 4,
+  col: 18,
+  pos: 62,
+  endpos: 68,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping saying
+skipping 4
+skipping 18
+skipping 62
+skipping 68
+skipping false
+skipping []
+skipping saying
+skipping [ 'say_hi',
+  [ { name: 'function', start: [Object], end: [Object] },
+    null,
+    [],
+    [ [Object] ] ] ]
+skipping say_hi
+null
+skipping { name: 'function',
+  start: 
+   { type: 'keyword',
+     value: 'function',
+     line: 6,
+     col: 9,
+     pos: 82,
+     endpos: 90,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 8,
+     col: 2,
+     pos: 120,
+     endpos: 121,
+     nlb: true,
+     comments_before: [] } }
+skipping function
+skipping { type: 'keyword',
+  value: 'function',
+  line: 6,
+  col: 9,
+  pos: 82,
+  endpos: 90,
+  nlb: false,
+  comments_before: [] }
+skipping keyword
+skipping function
+skipping 6
+skipping 9
+skipping 82
+skipping 90
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 8,
+  col: 2,
+  pos: 120,
+  endpos: 121,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 8
+skipping 2
+skipping 120
+skipping 121
+skipping true
+skipping []
+skipping null
+skipping []
+skipping [ [ { name: 'return', start: [Object], end: [Object] },
+    [ [Object], [Object], 'saying' ] ] ]
+[ { name: 'dot',
+    start: 
+     { type: 'name',
+       value: 'this',
+       line: 7,
+       col: 11,
+       pos: 106,
+       endpos: 110,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'name',
+       value: 'saying',
+       line: 7,
+       col: 16,
+       pos: 111,
+       endpos: 117,
+       nlb: false,
+       comments_before: [] } },
+  [ 'name', 'this' ],
+  'saying' ]
+skipping { name: 'return',
+  start: 
+   { type: 'keyword',
+     value: 'return',
+     line: 7,
+     col: 4,
+     pos: 99,
+     endpos: 105,
+     nlb: true,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'saying',
+     line: 7,
+     col: 16,
+     pos: 111,
+     endpos: 117,
+     nlb: false,
+     comments_before: [] } }
+skipping return
+skipping { type: 'keyword',
+  value: 'return',
+  line: 7,
+  col: 4,
+  pos: 99,
+  endpos: 105,
+  nlb: true,
+  comments_before: [] }
+skipping keyword
+skipping return
+skipping 7
+skipping 4
+skipping 99
+skipping 105
+skipping true
+skipping []
+skipping { type: 'name',
+  value: 'saying',
+  line: 7,
+  col: 16,
+  pos: 111,
+  endpos: 117,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping saying
+skipping 7
+skipping 16
+skipping 111
+skipping 117
+skipping false
+skipping []
+[ 'name', 'this' ]
+skipping { name: 'dot',
+  start: 
+   { type: 'name',
+     value: 'this',
+     line: 7,
+     col: 11,
+     pos: 106,
+     endpos: 110,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'saying',
+     line: 7,
+     col: 16,
+     pos: 111,
+     endpos: 117,
+     nlb: false,
+     comments_before: [] } }
+skipping dot
+skipping { type: 'name',
+  value: 'this',
+  line: 7,
+  col: 11,
+  pos: 106,
+  endpos: 110,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping this
+skipping 7
+skipping 11
+skipping 106
+skipping 110
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'saying',
+  line: 7,
+  col: 16,
+  pos: 111,
+  endpos: 117,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping saying
+skipping 7
+skipping 16
+skipping 111
+skipping 117
+skipping false
+skipping []
+skipping [ 'name', 'this' ]
+skipping name
+skipping this
+skipping saying
+[ { name: 'class',
+    start: 
+     { type: 'operator',
+       value: 'class',
+       line: 11,
+       col: 0,
+       pos: 125,
+       endpos: 130,
+       nlb: true,
+       comments_before: [] },
+    end: 
+     { type: 'punc',
+       value: '}',
+       line: 21,
+       col: 0,
+       pos: 351,
+       endpos: 352,
+       nlb: true,
+       comments_before: [] } },
+  'Cat',
+  [ { name: 'name', start: [Object], end: [Object] }, 'Mammal' ],
+  [ { name: 'object', start: [Object], end: [Object] },
+    [ [Object], [Object] ] ] ]
+skipping { name: 'stat',
+  start: 
+   { type: 'operator',
+     value: 'class',
+     line: 11,
+     col: 0,
+     pos: 125,
+     endpos: 130,
+     nlb: true,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 21,
+     col: 0,
+     pos: 351,
+     endpos: 352,
+     nlb: true,
+     comments_before: [] } }
+skipping stat
+skipping { type: 'operator',
+  value: 'class',
+  line: 11,
+  col: 0,
+  pos: 125,
+  endpos: 130,
+  nlb: true,
+  comments_before: [] }
+skipping operator
+skipping class
+skipping 11
+skipping 0
+skipping 125
+skipping 130
+skipping true
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 21,
+  col: 0,
+  pos: 351,
+  endpos: 352,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 21
+skipping 0
+skipping 351
+skipping 352
+skipping true
+skipping []
+Cat
+skipping [ 'toplevel', [ [ [Object], [Object] ] ] ]
+skipping toplevel
+skipping [ [ { name: 'stat', start: [Object], end: [Object] },
+    [ [Object], [Object] ] ] ]
+[ { name: 'object',
+    start: 
+     { type: 'punc',
+       value: '{',
+       line: 0,
+       col: 1,
+       pos: 1,
+       endpos: 2,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'punc',
+       value: '}',
+       line: 0,
+       col: 154,
+       pos: 154,
+       endpos: 155,
+       nlb: false,
+       comments_before: [] } },
+  [ [ 'init', [Object] ], [ 'say_hi', [Object] ] ] ]
+skipping { name: 'stat',
+  start: 
+   { type: 'punc',
+     value: '(',
+     line: 0,
+     col: 0,
+     pos: 0,
+     endpos: 1,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 0,
+     col: 155,
+     pos: 155,
+     endpos: 156,
+     nlb: false,
+     comments_before: [] } }
+skipping stat
+skipping { type: 'punc',
+  value: '(',
+  line: 0,
+  col: 0,
+  pos: 0,
+  endpos: 1,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping (
+skipping 0
+skipping 0
+skipping 0
+skipping 1
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 0,
+  col: 155,
+  pos: 155,
+  endpos: 156,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 0
+skipping 155
+skipping 155
+skipping 156
+skipping false
+skipping []
+[ [ 'init', [ [Object], null, [], [Object] ] ],
+  [ 'say_hi', [ [Object], null, [], [Object] ] ] ]
+skipping { name: 'object',
+  start: 
+   { type: 'punc',
+     value: '{',
+     line: 0,
+     col: 1,
+     pos: 1,
+     endpos: 2,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 0,
+     col: 154,
+     pos: 154,
+     endpos: 155,
+     nlb: false,
+     comments_before: [] } }
+skipping object
+skipping { type: 'punc',
+  value: '{',
+  line: 0,
+  col: 1,
+  pos: 1,
+  endpos: 2,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping {
+skipping 0
+skipping 1
+skipping 1
+skipping 2
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 0,
+  col: 154,
+  pos: 154,
+  endpos: 155,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 0
+skipping 154
+skipping 154
+skipping 155
+skipping false
+skipping []
+skipping [ [ 'init', [ [Object], null, [], [Object] ] ],
+  [ 'say_hi', [ [Object], null, [], [Object] ] ] ]
+skipping [ 'init',
+  [ { name: 'function', start: [Object], end: [Object] },
+    null,
+    [],
+    [ [Object] ] ] ]
+skipping init
+null
+skipping { name: 'function',
+  start: 
+   { type: 'keyword',
+     value: 'function',
+     line: 0,
+     col: 7,
+     pos: 7,
+     endpos: 15,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 0,
+     col: 47,
+     pos: 47,
+     endpos: 48,
+     nlb: false,
+     comments_before: [] } }
+skipping function
+skipping { type: 'keyword',
+  value: 'function',
+  line: 0,
+  col: 7,
+  pos: 7,
+  endpos: 15,
+  nlb: false,
+  comments_before: [] }
+skipping keyword
+skipping function
+skipping 0
+skipping 7
+skipping 7
+skipping 15
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 0,
+  col: 47,
+  pos: 47,
+  endpos: 48,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 0
+skipping 47
+skipping 47
+skipping 48
+skipping false
+skipping []
+skipping null
+skipping []
+skipping [ [ { name: 'stat', start: [Object], end: [Object] },
+    [ [Object], [Object], [Object] ] ] ]
+[ { name: 'call',
+    start: 
+     { type: 'punc',
+       value: '(',
+       line: 0,
+       col: 18,
+       pos: 18,
+       endpos: 19,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'punc',
+       value: ')',
+       line: 0,
+       col: 46,
+       pos: 46,
+       endpos: 47,
+       nlb: false,
+       comments_before: [] } },
+  [ { name: 'unary-prefix', start: [Object], end: [Object] },
+    ':',
+    [ [Object], [Object], 'init' ] ],
+  [ [ [Object], 'mew' ] ] ]
+skipping { name: 'stat',
+  start: 
+   { type: 'punc',
+     value: '(',
+     line: 0,
+     col: 18,
+     pos: 18,
+     endpos: 19,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 0,
+     col: 46,
+     pos: 46,
+     endpos: 47,
+     nlb: false,
+     comments_before: [] } }
+skipping stat
+skipping { type: 'punc',
+  value: '(',
+  line: 0,
+  col: 18,
+  pos: 18,
+  endpos: 19,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping (
+skipping 0
+skipping 18
+skipping 18
+skipping 19
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 0,
+  col: 46,
+  pos: 46,
+  endpos: 47,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 0
+skipping 46
+skipping 46
+skipping 47
+skipping false
+skipping []
+[ { name: 'unary-prefix',
+    start: 
+     { type: 'punc',
+       value: ':',
+       line: 0,
+       col: 19,
+       pos: 19,
+       endpos: 20,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'name',
+       value: 'init',
+       line: 0,
+       col: 35,
+       pos: 35,
+       endpos: 39,
+       nlb: false,
+       comments_before: [] } },
+  ':',
+  [ { name: 'dot', start: [Object], end: [Object] },
+    [ 'dot', [Object], 'superclass' ],
+    'init' ] ]
+skipping { name: 'call',
+  start: 
+   { type: 'punc',
+     value: '(',
+     line: 0,
+     col: 18,
+     pos: 18,
+     endpos: 19,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 0,
+     col: 46,
+     pos: 46,
+     endpos: 47,
+     nlb: false,
+     comments_before: [] } }
+skipping call
+skipping { type: 'punc',
+  value: '(',
+  line: 0,
+  col: 18,
+  pos: 18,
+  endpos: 19,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping (
+skipping 0
+skipping 18
+skipping 18
+skipping 19
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 0,
+  col: 46,
+  pos: 46,
+  endpos: 47,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 0
+skipping 46
+skipping 46
+skipping 47
+skipping false
+skipping []
+:
+okay Cat.superclass.init
+skipping [ 'toplevel', [ [ [Object], [Object] ] ] ]
+skipping toplevel
+skipping [ [ { name: 'stat', start: [Object], end: [Object] },
+    [ [Object], [Object], 'init' ] ] ]
+[ { name: 'dot',
+    start: 
+     { type: 'name',
+       value: 'Cat',
+       line: 0,
+       col: 1,
+       pos: 1,
+       endpos: 4,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'name',
+       value: 'init',
+       line: 0,
+       col: 16,
+       pos: 16,
+       endpos: 20,
+       nlb: false,
+       comments_before: [] } },
+  [ 'dot', [ 'name', 'Cat' ], 'superclass' ],
+  'init' ]
+skipping { name: 'stat',
+  start: 
+   { type: 'punc',
+     value: '(',
+     line: 0,
+     col: 0,
+     pos: 0,
+     endpos: 1,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 0,
+     col: 20,
+     pos: 20,
+     endpos: 21,
+     nlb: false,
+     comments_before: [] } }
+skipping stat
+skipping { type: 'punc',
+  value: '(',
+  line: 0,
+  col: 0,
+  pos: 0,
+  endpos: 1,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping (
+skipping 0
+skipping 0
+skipping 0
+skipping 1
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 0,
+  col: 20,
+  pos: 20,
+  endpos: 21,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 0
+skipping 20
+skipping 20
+skipping 21
+skipping false
+skipping []
+[ 'dot', [ 'name', 'Cat' ], 'superclass' ]
+skipping { name: 'dot',
+  start: 
+   { type: 'name',
+     value: 'Cat',
+     line: 0,
+     col: 1,
+     pos: 1,
+     endpos: 4,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'init',
+     line: 0,
+     col: 16,
+     pos: 16,
+     endpos: 20,
+     nlb: false,
+     comments_before: [] } }
+skipping dot
+skipping { type: 'name',
+  value: 'Cat',
+  line: 0,
+  col: 1,
+  pos: 1,
+  endpos: 4,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping Cat
+skipping 0
+skipping 1
+skipping 1
+skipping 4
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'init',
+  line: 0,
+  col: 16,
+  pos: 16,
+  endpos: 20,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping init
+skipping 0
+skipping 16
+skipping 16
+skipping 20
+skipping false
+skipping []
+skipping [ 'dot', [ 'name', 'Cat' ], 'superclass' ]
+skipping dot
+skipping [ 'name', 'Cat' ]
+skipping name
+skipping Cat
+skipping superclass
+skipping init
+skipping { name: 'unary-prefix',
+  start: 
+   { type: 'punc',
+     value: ':',
+     line: 0,
+     col: 19,
+     pos: 19,
+     endpos: 20,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'init',
+     line: 0,
+     col: 35,
+     pos: 35,
+     endpos: 39,
+     nlb: false,
+     comments_before: [] } }
+skipping unary-prefix
+skipping { type: 'punc',
+  value: ':',
+  line: 0,
+  col: 19,
+  pos: 19,
+  endpos: 20,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping :
+skipping 0
+skipping 19
+skipping 19
+skipping 20
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'init',
+  line: 0,
+  col: 35,
+  pos: 35,
+  endpos: 39,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping init
+skipping 0
+skipping 35
+skipping 35
+skipping 39
+skipping false
+skipping []
+skipping :
+[ 'dot', [ 'name', 'Cat' ], 'superclass' ]
+skipping { name: 'dot',
+  start: 
+   { type: 'name',
+     value: 'Cat',
+     line: 0,
+     col: 20,
+     pos: 20,
+     endpos: 23,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'init',
+     line: 0,
+     col: 35,
+     pos: 35,
+     endpos: 39,
+     nlb: false,
+     comments_before: [] } }
+skipping dot
+skipping { type: 'name',
+  value: 'Cat',
+  line: 0,
+  col: 20,
+  pos: 20,
+  endpos: 23,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping Cat
+skipping 0
+skipping 20
+skipping 20
+skipping 23
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'init',
+  line: 0,
+  col: 35,
+  pos: 35,
+  endpos: 39,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping init
+skipping 0
+skipping 35
+skipping 35
+skipping 39
+skipping false
+skipping []
+skipping [ 'dot', [ 'name', 'Cat' ], 'superclass' ]
+skipping dot
+skipping [ 'name', 'Cat' ]
+skipping name
+skipping Cat
+skipping superclass
+skipping init
+skipping [ [ { name: 'string', start: [Object], end: [Object] }, 'mew' ] ]
+mew
+skipping { name: 'string',
+  start: 
+   { type: 'string',
+     value: 'mew',
+     line: 0,
+     col: 41,
+     pos: 41,
+     endpos: 46,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'string',
+     value: 'mew',
+     line: 0,
+     col: 41,
+     pos: 41,
+     endpos: 46,
+     nlb: false,
+     comments_before: [] } }
+skipping string
+skipping { type: 'string',
+  value: 'mew',
+  line: 0,
+  col: 41,
+  pos: 41,
+  endpos: 46,
+  nlb: false,
+  comments_before: [] }
+skipping string
+skipping mew
+skipping 0
+skipping 41
+skipping 41
+skipping 46
+skipping false
+skipping []
+skipping { type: 'string',
+  value: 'mew',
+  line: 0,
+  col: 41,
+  pos: 41,
+  endpos: 46,
+  nlb: false,
+  comments_before: [] }
+skipping string
+skipping mew
+skipping 0
+skipping 41
+skipping 41
+skipping 46
+skipping false
+skipping []
+skipping mew
+skipping [ 'say_hi',
+  [ { name: 'function', start: [Object], end: [Object] },
+    null,
+    [],
+    [ [Object], [Object] ] ] ]
+skipping say_hi
+null
+skipping { name: 'function',
+  start: 
+   { type: 'keyword',
+     value: 'function',
+     line: 0,
+     col: 56,
+     pos: 56,
+     endpos: 64,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 0,
+     col: 153,
+     pos: 153,
+     endpos: 154,
+     nlb: false,
+     comments_before: [] } }
+skipping function
+skipping { type: 'keyword',
+  value: 'function',
+  line: 0,
+  col: 56,
+  pos: 56,
+  endpos: 64,
+  nlb: false,
+  comments_before: [] }
+skipping keyword
+skipping function
+skipping 0
+skipping 56
+skipping 56
+skipping 64
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 0,
+  col: 153,
+  pos: 153,
+  endpos: 154,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 0
+skipping 153
+skipping 153
+skipping 154
+skipping false
+skipping []
+skipping null
+skipping []
+skipping [ [ { name: 'var', start: [Object], end: [Object] },
+    [ [Object] ] ],
+  [ { name: 'return', start: [Object], end: [Object] },
+    [ [Object], '+', [Object], [Object] ] ] ]
+[ [ 'x', [ [Object], 'lol', [Object], [Object] ] ] ]
+skipping { name: 'var',
+  start: 
+   { type: 'keyword',
+     value: 'var',
+     line: 0,
+     col: 67,
+     pos: 67,
+     endpos: 70,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ';',
+     line: 0,
+     col: 114,
+     pos: 114,
+     endpos: 115,
+     nlb: false,
+     comments_before: [] } }
+skipping var
+skipping { type: 'keyword',
+  value: 'var',
+  line: 0,
+  col: 67,
+  pos: 67,
+  endpos: 70,
+  nlb: false,
+  comments_before: [] }
+skipping keyword
+skipping var
+skipping 0
+skipping 67
+skipping 67
+skipping 70
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: ';',
+  line: 0,
+  col: 114,
+  pos: 114,
+  endpos: 115,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping ;
+skipping 0
+skipping 114
+skipping 114
+skipping 115
+skipping false
+skipping []
+skipping [ [ 'x', [ [Object], 'lol', [Object], [Object] ] ] ]
+skipping [ 'x',
+  [ { name: 'class', start: [Object], end: [Object] },
+    'lol',
+    [ [Object], 'Object' ],
+    [ [Object], [Object] ] ] ]
+skipping x
+lol
+skipping [ 'x',
+  [ { name: 'class', start: [Object], end: [Object] },
+    'lol',
+    [ [Object], 'Object' ],
+    [ [Object], [Object] ] ] ]
+skipping [ [ 'x', [ [Object], 'lol', [Object], [Object] ] ] ]
+skipping [ 'toplevel', [ [ [Object], [Object] ] ] ]
+skipping toplevel
+skipping [ [ { name: 'stat', start: [Object], end: [Object] },
+    [ [Object], [Object] ] ] ]
+[ { name: 'object',
+    start: 
+     { type: 'punc',
+       value: '{',
+       line: 0,
+       col: 1,
+       pos: 1,
+       endpos: 2,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'punc',
+       value: '}',
+       line: 0,
+       col: 16,
+       pos: 16,
+       endpos: 17,
+       nlb: false,
+       comments_before: [] } },
+  [ [ 'hi', [Object] ] ] ]
+skipping { name: 'stat',
+  start: 
+   { type: 'punc',
+     value: '(',
+     line: 0,
+     col: 0,
+     pos: 0,
+     endpos: 1,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 0,
+     col: 17,
+     pos: 17,
+     endpos: 18,
+     nlb: false,
+     comments_before: [] } }
+skipping stat
+skipping { type: 'punc',
+  value: '(',
+  line: 0,
+  col: 0,
+  pos: 0,
+  endpos: 1,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping (
+skipping 0
+skipping 0
+skipping 0
+skipping 1
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 0,
+  col: 17,
+  pos: 17,
+  endpos: 18,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 0
+skipping 17
+skipping 17
+skipping 18
+skipping false
+skipping []
+[ [ 'hi', [ [Object], [Object], 'log' ] ] ]
+skipping { name: 'object',
+  start: 
+   { type: 'punc',
+     value: '{',
+     line: 0,
+     col: 1,
+     pos: 1,
+     endpos: 2,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 0,
+     col: 16,
+     pos: 16,
+     endpos: 17,
+     nlb: false,
+     comments_before: [] } }
+skipping object
+skipping { type: 'punc',
+  value: '{',
+  line: 0,
+  col: 1,
+  pos: 1,
+  endpos: 2,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping {
+skipping 0
+skipping 1
+skipping 1
+skipping 2
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 0,
+  col: 16,
+  pos: 16,
+  endpos: 17,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 0
+skipping 16
+skipping 16
+skipping 17
+skipping false
+skipping []
+skipping [ [ 'hi', [ [Object], [Object], 'log' ] ] ]
+skipping [ 'hi',
+  [ { name: 'dot', start: [Object], end: [Object] },
+    [ 'name', 'console' ],
+    'log' ] ]
+skipping hi
+[ 'name', 'console' ]
+skipping { name: 'dot',
+  start: 
+   { type: 'name',
+     value: 'console',
+     line: 0,
+     col: 5,
+     pos: 5,
+     endpos: 12,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'log',
+     line: 0,
+     col: 13,
+     pos: 13,
+     endpos: 16,
+     nlb: false,
+     comments_before: [] } }
+skipping dot
+skipping { type: 'name',
+  value: 'console',
+  line: 0,
+  col: 5,
+  pos: 5,
+  endpos: 12,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping console
+skipping 0
+skipping 5
+skipping 5
+skipping 12
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'log',
+  line: 0,
+  col: 13,
+  pos: 13,
+  endpos: 16,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping log
+skipping 0
+skipping 13
+skipping 13
+skipping 16
+skipping false
+skipping []
+skipping [ 'name', 'console' ]
+skipping name
+skipping console
+skipping log
+skipping { name: 'class',
+  start: 
+   { type: 'operator',
+     value: 'class',
+     line: 0,
+     col: 73,
+     pos: 73,
+     endpos: 78,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 0,
+     col: 113,
+     pos: 113,
+     endpos: 114,
+     nlb: false,
+     comments_before: [] } }
+skipping class
+skipping { type: 'operator',
+  value: 'class',
+  line: 0,
+  col: 73,
+  pos: 73,
+  endpos: 78,
+  nlb: false,
+  comments_before: [] }
+skipping operator
+skipping class
+skipping 0
+skipping 73
+skipping 73
+skipping 78
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 0,
+  col: 113,
+  pos: 113,
+  endpos: 114,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 0
+skipping 113
+skipping 113
+skipping 114
+skipping false
+skipping []
+skipping lol
+Object
+skipping { name: 'name',
+  start: 
+   { type: 'name',
+     value: 'Object',
+     line: 0,
+     col: 91,
+     pos: 91,
+     endpos: 97,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'Object',
+     line: 0,
+     col: 91,
+     pos: 91,
+     endpos: 97,
+     nlb: false,
+     comments_before: [] } }
+skipping name
+skipping { type: 'name',
+  value: 'Object',
+  line: 0,
+  col: 91,
+  pos: 91,
+  endpos: 97,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping Object
+skipping 0
+skipping 91
+skipping 91
+skipping 97
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'Object',
+  line: 0,
+  col: 91,
+  pos: 91,
+  endpos: 97,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping Object
+skipping 0
+skipping 91
+skipping 91
+skipping 97
+skipping false
+skipping []
+skipping Object
+[ [ 'hi', [ [Object], [Object], 'log' ] ] ]
+skipping { name: 'object',
+  start: 
+   { type: 'punc',
+     value: '{',
+     line: 0,
+     col: 98,
+     pos: 98,
+     endpos: 99,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 0,
+     col: 113,
+     pos: 113,
+     endpos: 114,
+     nlb: false,
+     comments_before: [] } }
+skipping object
+skipping { type: 'punc',
+  value: '{',
+  line: 0,
+  col: 98,
+  pos: 98,
+  endpos: 99,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping {
+skipping 0
+skipping 98
+skipping 98
+skipping 99
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 0,
+  col: 113,
+  pos: 113,
+  endpos: 114,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 0
+skipping 113
+skipping 113
+skipping 114
+skipping false
+skipping []
+skipping [ [ 'hi', [ [Object], [Object], 'log' ] ] ]
+skipping [ 'hi',
+  [ { name: 'dot', start: [Object], end: [Object] },
+    [ 'name', 'console' ],
+    'log' ] ]
+skipping hi
+[ 'name', 'console' ]
+skipping { name: 'dot',
+  start: 
+   { type: 'name',
+     value: 'console',
+     line: 0,
+     col: 102,
+     pos: 102,
+     endpos: 109,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'log',
+     line: 0,
+     col: 110,
+     pos: 110,
+     endpos: 113,
+     nlb: false,
+     comments_before: [] } }
+skipping dot
+skipping { type: 'name',
+  value: 'console',
+  line: 0,
+  col: 102,
+  pos: 102,
+  endpos: 109,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping console
+skipping 0
+skipping 102
+skipping 102
+skipping 109
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'log',
+  line: 0,
+  col: 110,
+  pos: 110,
+  endpos: 113,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping log
+skipping 0
+skipping 110
+skipping 110
+skipping 113
+skipping false
+skipping []
+skipping [ 'name', 'console' ]
+skipping name
+skipping console
+skipping log
+[ { name: 'binary',
+    start: 
+     { type: 'string',
+       value: 'meow ',
+       line: 0,
+       col: 121,
+       pos: 121,
+       endpos: 128,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'punc',
+       value: ')',
+       line: 0,
+       col: 152,
+       pos: 152,
+       endpos: 153,
+       nlb: false,
+       comments_before: [] } },
+  '+',
+  [ { name: 'string', start: [Object], end: [Object] }, 'meow ' ],
+  [ 'unary-prefix', ':', [ [Object], [Object], [] ] ] ]
+skipping { name: 'return',
+  start: 
+   { type: 'keyword',
+     value: 'return',
+     line: 0,
+     col: 115,
+     pos: 115,
+     endpos: 121,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 0,
+     col: 152,
+     pos: 152,
+     endpos: 153,
+     nlb: false,
+     comments_before: [] } }
+skipping return
+skipping { type: 'keyword',
+  value: 'return',
+  line: 0,
+  col: 115,
+  pos: 115,
+  endpos: 121,
+  nlb: false,
+  comments_before: [] }
+skipping keyword
+skipping return
+skipping 0
+skipping 115
+skipping 115
+skipping 121
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 0,
+  col: 152,
+  pos: 152,
+  endpos: 153,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 0
+skipping 152
+skipping 152
+skipping 153
+skipping false
+skipping []
++
+skipping { name: 'binary',
+  start: 
+   { type: 'string',
+     value: 'meow ',
+     line: 0,
+     col: 121,
+     pos: 121,
+     endpos: 128,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 0,
+     col: 152,
+     pos: 152,
+     endpos: 153,
+     nlb: false,
+     comments_before: [] } }
+skipping binary
+skipping { type: 'string',
+  value: 'meow ',
+  line: 0,
+  col: 121,
+  pos: 121,
+  endpos: 128,
+  nlb: false,
+  comments_before: [] }
+skipping string
+skipping meow 
+skipping 0
+skipping 121
+skipping 121
+skipping 128
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 0,
+  col: 152,
+  pos: 152,
+  endpos: 153,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 0
+skipping 152
+skipping 152
+skipping 153
+skipping false
+skipping []
+skipping +
+meow 
+skipping { name: 'string',
+  start: 
+   { type: 'string',
+     value: 'meow ',
+     line: 0,
+     col: 121,
+     pos: 121,
+     endpos: 128,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'string',
+     value: 'meow ',
+     line: 0,
+     col: 121,
+     pos: 121,
+     endpos: 128,
+     nlb: false,
+     comments_before: [] } }
+skipping string
+skipping { type: 'string',
+  value: 'meow ',
+  line: 0,
+  col: 121,
+  pos: 121,
+  endpos: 128,
+  nlb: false,
+  comments_before: [] }
+skipping string
+skipping meow 
+skipping 0
+skipping 121
+skipping 121
+skipping 128
+skipping false
+skipping []
+skipping { type: 'string',
+  value: 'meow ',
+  line: 0,
+  col: 121,
+  pos: 121,
+  endpos: 128,
+  nlb: false,
+  comments_before: [] }
+skipping string
+skipping meow 
+skipping 0
+skipping 121
+skipping 121
+skipping 128
+skipping false
+skipping []
+skipping meow 
+skipping [ 'unary-prefix',
+  ':',
+  [ { name: 'call', start: [Object], end: [Object] },
+    [ 'dot', [Object], 'say_hi' ],
+    [] ] ]
+skipping unary-prefix
+skipping :
+[ 'dot', [ 'dot', [ 'name', 'Cat' ], 'superclass' ], 'say_hi' ]
+skipping { name: 'call',
+  start: 
+   { type: 'name',
+     value: 'Cat',
+     line: 0,
+     col: 130,
+     pos: 130,
+     endpos: 133,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 0,
+     col: 152,
+     pos: 152,
+     endpos: 153,
+     nlb: false,
+     comments_before: [] } }
+skipping call
+skipping { type: 'name',
+  value: 'Cat',
+  line: 0,
+  col: 130,
+  pos: 130,
+  endpos: 133,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping Cat
+skipping 0
+skipping 130
+skipping 130
+skipping 133
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 0,
+  col: 152,
+  pos: 152,
+  endpos: 153,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 0
+skipping 152
+skipping 152
+skipping 153
+skipping false
+skipping []
+skipping [ 'dot', [ 'dot', [ 'name', 'Cat' ], 'superclass' ], 'say_hi' ]
+skipping dot
+skipping [ 'dot', [ 'name', 'Cat' ], 'superclass' ]
+skipping dot
+skipping [ 'name', 'Cat' ]
+skipping name
+skipping Cat
+skipping superclass
+skipping say_hi
+skipping []
+skipping { name: 'class',
+  start: 
+   { type: 'operator',
+     value: 'class',
+     line: 11,
+     col: 0,
+     pos: 125,
+     endpos: 130,
+     nlb: true,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 21,
+     col: 0,
+     pos: 351,
+     endpos: 352,
+     nlb: true,
+     comments_before: [] } }
+skipping class
+skipping { type: 'operator',
+  value: 'class',
+  line: 11,
+  col: 0,
+  pos: 125,
+  endpos: 130,
+  nlb: true,
+  comments_before: [] }
+skipping operator
+skipping class
+skipping 11
+skipping 0
+skipping 125
+skipping 130
+skipping true
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 21,
+  col: 0,
+  pos: 351,
+  endpos: 352,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 21
+skipping 0
+skipping 351
+skipping 352
+skipping true
+skipping []
+skipping Cat
+Mammal
+skipping { name: 'name',
+  start: 
+   { type: 'name',
+     value: 'Mammal',
+     line: 11,
+     col: 18,
+     pos: 143,
+     endpos: 149,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'Mammal',
+     line: 11,
+     col: 18,
+     pos: 143,
+     endpos: 149,
+     nlb: false,
+     comments_before: [] } }
+skipping name
+skipping { type: 'name',
+  value: 'Mammal',
+  line: 11,
+  col: 18,
+  pos: 143,
+  endpos: 149,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping Mammal
+skipping 11
+skipping 18
+skipping 143
+skipping 149
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'Mammal',
+  line: 11,
+  col: 18,
+  pos: 143,
+  endpos: 149,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping Mammal
+skipping 11
+skipping 18
+skipping 143
+skipping 149
+skipping false
+skipping []
+skipping Mammal
+[ [ 'init', [ [Object], null, [], [Object] ] ],
+  [ 'say_hi', [ [Object], null, [], [Object] ] ] ]
+skipping { name: 'object',
+  start: 
+   { type: 'punc',
+     value: '{',
+     line: 11,
+     col: 25,
+     pos: 150,
+     endpos: 151,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 21,
+     col: 0,
+     pos: 351,
+     endpos: 352,
+     nlb: true,
+     comments_before: [] } }
+skipping object
+skipping { type: 'punc',
+  value: '{',
+  line: 11,
+  col: 25,
+  pos: 150,
+  endpos: 151,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping {
+skipping 11
+skipping 25
+skipping 150
+skipping 151
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 21,
+  col: 0,
+  pos: 351,
+  endpos: 352,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 21
+skipping 0
+skipping 351
+skipping 352
+skipping true
+skipping []
+skipping [ [ 'init', [ [Object], null, [], [Object] ] ],
+  [ 'say_hi', [ [Object], null, [], [Object] ] ] ]
+skipping [ 'init',
+  [ { name: 'function', start: [Object], end: [Object] },
+    null,
+    [],
+    [ [Object] ] ] ]
+skipping init
+null
+skipping { name: 'function',
+  start: 
+   { type: 'keyword',
+     value: 'function',
+     line: 12,
+     col: 7,
+     pos: 159,
+     endpos: 167,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 14,
+     col: 2,
+     pos: 209,
+     endpos: 210,
+     nlb: true,
+     comments_before: [] } }
+skipping function
+skipping { type: 'keyword',
+  value: 'function',
+  line: 12,
+  col: 7,
+  pos: 159,
+  endpos: 167,
+  nlb: false,
+  comments_before: [] }
+skipping keyword
+skipping function
+skipping 12
+skipping 7
+skipping 159
+skipping 167
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 14,
+  col: 2,
+  pos: 209,
+  endpos: 210,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 14
+skipping 2
+skipping 209
+skipping 210
+skipping true
+skipping []
+skipping null
+skipping []
+skipping [ [ { name: 'stat', start: [Object], end: [Object] },
+    [ [Object], [Object], [Object] ] ] ]
+[ { name: 'call',
+    start: 
+     { type: 'punc',
+       value: '(',
+       line: 13,
+       col: 4,
+       pos: 176,
+       endpos: 177,
+       nlb: true,
+       comments_before: [] },
+    end: 
+     { type: 'punc',
+       value: ')',
+       line: 13,
+       col: 32,
+       pos: 204,
+       endpos: 205,
+       nlb: false,
+       comments_before: [] } },
+  [ { name: 'unary-prefix', start: [Object], end: [Object] },
+    ':',
+    [ [Object], [Object], 'init' ] ],
+  [ [ [Object], 'mew' ] ] ]
+skipping { name: 'stat',
+  start: 
+   { type: 'punc',
+     value: '(',
+     line: 13,
+     col: 4,
+     pos: 176,
+     endpos: 177,
+     nlb: true,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 13,
+     col: 32,
+     pos: 204,
+     endpos: 205,
+     nlb: false,
+     comments_before: [] } }
+skipping stat
+skipping { type: 'punc',
+  value: '(',
+  line: 13,
+  col: 4,
+  pos: 176,
+  endpos: 177,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping (
+skipping 13
+skipping 4
+skipping 176
+skipping 177
+skipping true
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 13,
+  col: 32,
+  pos: 204,
+  endpos: 205,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 13
+skipping 32
+skipping 204
+skipping 205
+skipping false
+skipping []
+[ { name: 'unary-prefix',
+    start: 
+     { type: 'punc',
+       value: ':',
+       line: 13,
+       col: 5,
+       pos: 177,
+       endpos: 178,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'name',
+       value: 'init',
+       line: 13,
+       col: 21,
+       pos: 193,
+       endpos: 197,
+       nlb: false,
+       comments_before: [] } },
+  ':',
+  [ { name: 'dot', start: [Object], end: [Object] },
+    [ 'dot', [Object], 'superclass' ],
+    'init' ] ]
+skipping { name: 'call',
+  start: 
+   { type: 'punc',
+     value: '(',
+     line: 13,
+     col: 4,
+     pos: 176,
+     endpos: 177,
+     nlb: true,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 13,
+     col: 32,
+     pos: 204,
+     endpos: 205,
+     nlb: false,
+     comments_before: [] } }
+skipping call
+skipping { type: 'punc',
+  value: '(',
+  line: 13,
+  col: 4,
+  pos: 176,
+  endpos: 177,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping (
+skipping 13
+skipping 4
+skipping 176
+skipping 177
+skipping true
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 13,
+  col: 32,
+  pos: 204,
+  endpos: 205,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 13
+skipping 32
+skipping 204
+skipping 205
+skipping false
+skipping []
+:
+okay Cat.superclass.init
+skipping [ 'toplevel', [ [ [Object], [Object] ] ] ]
+skipping toplevel
+skipping [ [ { name: 'stat', start: [Object], end: [Object] },
+    [ [Object], [Object], 'init' ] ] ]
+[ { name: 'dot',
+    start: 
+     { type: 'name',
+       value: 'Cat',
+       line: 0,
+       col: 1,
+       pos: 1,
+       endpos: 4,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'name',
+       value: 'init',
+       line: 0,
+       col: 16,
+       pos: 16,
+       endpos: 20,
+       nlb: false,
+       comments_before: [] } },
+  [ 'dot', [ 'name', 'Cat' ], 'superclass' ],
+  'init' ]
+skipping { name: 'stat',
+  start: 
+   { type: 'punc',
+     value: '(',
+     line: 0,
+     col: 0,
+     pos: 0,
+     endpos: 1,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 0,
+     col: 20,
+     pos: 20,
+     endpos: 21,
+     nlb: false,
+     comments_before: [] } }
+skipping stat
+skipping { type: 'punc',
+  value: '(',
+  line: 0,
+  col: 0,
+  pos: 0,
+  endpos: 1,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping (
+skipping 0
+skipping 0
+skipping 0
+skipping 1
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 0,
+  col: 20,
+  pos: 20,
+  endpos: 21,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 0
+skipping 20
+skipping 20
+skipping 21
+skipping false
+skipping []
+[ 'dot', [ 'name', 'Cat' ], 'superclass' ]
+skipping { name: 'dot',
+  start: 
+   { type: 'name',
+     value: 'Cat',
+     line: 0,
+     col: 1,
+     pos: 1,
+     endpos: 4,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'init',
+     line: 0,
+     col: 16,
+     pos: 16,
+     endpos: 20,
+     nlb: false,
+     comments_before: [] } }
+skipping dot
+skipping { type: 'name',
+  value: 'Cat',
+  line: 0,
+  col: 1,
+  pos: 1,
+  endpos: 4,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping Cat
+skipping 0
+skipping 1
+skipping 1
+skipping 4
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'init',
+  line: 0,
+  col: 16,
+  pos: 16,
+  endpos: 20,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping init
+skipping 0
+skipping 16
+skipping 16
+skipping 20
+skipping false
+skipping []
+skipping [ 'dot', [ 'name', 'Cat' ], 'superclass' ]
+skipping dot
+skipping [ 'name', 'Cat' ]
+skipping name
+skipping Cat
+skipping superclass
+skipping init
+skipping { name: 'unary-prefix',
+  start: 
+   { type: 'punc',
+     value: ':',
+     line: 13,
+     col: 5,
+     pos: 177,
+     endpos: 178,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'init',
+     line: 13,
+     col: 21,
+     pos: 193,
+     endpos: 197,
+     nlb: false,
+     comments_before: [] } }
+skipping unary-prefix
+skipping { type: 'punc',
+  value: ':',
+  line: 13,
+  col: 5,
+  pos: 177,
+  endpos: 178,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping :
+skipping 13
+skipping 5
+skipping 177
+skipping 178
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'init',
+  line: 13,
+  col: 21,
+  pos: 193,
+  endpos: 197,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping init
+skipping 13
+skipping 21
+skipping 193
+skipping 197
+skipping false
+skipping []
+skipping :
+[ 'dot', [ 'name', 'Cat' ], 'superclass' ]
+skipping { name: 'dot',
+  start: 
+   { type: 'name',
+     value: 'Cat',
+     line: 13,
+     col: 6,
+     pos: 178,
+     endpos: 181,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'init',
+     line: 13,
+     col: 21,
+     pos: 193,
+     endpos: 197,
+     nlb: false,
+     comments_before: [] } }
+skipping dot
+skipping { type: 'name',
+  value: 'Cat',
+  line: 13,
+  col: 6,
+  pos: 178,
+  endpos: 181,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping Cat
+skipping 13
+skipping 6
+skipping 178
+skipping 181
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'init',
+  line: 13,
+  col: 21,
+  pos: 193,
+  endpos: 197,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping init
+skipping 13
+skipping 21
+skipping 193
+skipping 197
+skipping false
+skipping []
+skipping [ 'dot', [ 'name', 'Cat' ], 'superclass' ]
+skipping dot
+skipping [ 'name', 'Cat' ]
+skipping name
+skipping Cat
+skipping superclass
+skipping init
+skipping [ [ { name: 'string', start: [Object], end: [Object] }, 'mew' ] ]
+mew
+skipping { name: 'string',
+  start: 
+   { type: 'string',
+     value: 'mew',
+     line: 13,
+     col: 27,
+     pos: 199,
+     endpos: 204,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'string',
+     value: 'mew',
+     line: 13,
+     col: 27,
+     pos: 199,
+     endpos: 204,
+     nlb: false,
+     comments_before: [] } }
+skipping string
+skipping { type: 'string',
+  value: 'mew',
+  line: 13,
+  col: 27,
+  pos: 199,
+  endpos: 204,
+  nlb: false,
+  comments_before: [] }
+skipping string
+skipping mew
+skipping 13
+skipping 27
+skipping 199
+skipping 204
+skipping false
+skipping []
+skipping { type: 'string',
+  value: 'mew',
+  line: 13,
+  col: 27,
+  pos: 199,
+  endpos: 204,
+  nlb: false,
+  comments_before: [] }
+skipping string
+skipping mew
+skipping 13
+skipping 27
+skipping 199
+skipping 204
+skipping false
+skipping []
+skipping mew
+skipping [ 'say_hi',
+  [ { name: 'function', start: [Object], end: [Object] },
+    null,
+    [],
+    [ [Object], [Object] ] ] ]
+skipping say_hi
+null
+skipping { name: 'function',
+  start: 
+   { type: 'keyword',
+     value: 'function',
+     line: 15,
+     col: 9,
+     pos: 220,
+     endpos: 228,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 20,
+     col: 2,
+     pos: 349,
+     endpos: 350,
+     nlb: true,
+     comments_before: [] } }
+skipping function
+skipping { type: 'keyword',
+  value: 'function',
+  line: 15,
+  col: 9,
+  pos: 220,
+  endpos: 228,
+  nlb: false,
+  comments_before: [] }
+skipping keyword
+skipping function
+skipping 15
+skipping 9
+skipping 220
+skipping 228
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 20,
+  col: 2,
+  pos: 349,
+  endpos: 350,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 20
+skipping 2
+skipping 349
+skipping 350
+skipping true
+skipping []
+skipping null
+skipping []
+skipping [ [ { name: 'var', start: [Object], end: [Object] },
+    [ [Object] ] ],
+  [ { name: 'return', start: [Object], end: [Object] },
+    [ [Object], '+', [Object], [Object] ] ] ]
+[ [ 'x', [ [Object], 'lol', [Object], [Object] ] ] ]
+skipping { name: 'var',
+  start: 
+   { type: 'keyword',
+     value: 'var',
+     line: 16,
+     col: 4,
+     pos: 237,
+     endpos: 240,
+     nlb: true,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 18,
+     col: 4,
+     pos: 297,
+     endpos: 298,
+     nlb: true,
+     comments_before: [] } }
+skipping var
+skipping { type: 'keyword',
+  value: 'var',
+  line: 16,
+  col: 4,
+  pos: 237,
+  endpos: 240,
+  nlb: true,
+  comments_before: [] }
+skipping keyword
+skipping var
+skipping 16
+skipping 4
+skipping 237
+skipping 240
+skipping true
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 18,
+  col: 4,
+  pos: 297,
+  endpos: 298,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 18
+skipping 4
+skipping 297
+skipping 298
+skipping true
+skipping []
+skipping [ [ 'x', [ [Object], 'lol', [Object], [Object] ] ] ]
+skipping [ 'x',
+  [ { name: 'class', start: [Object], end: [Object] },
+    'lol',
+    [ [Object], 'Object' ],
+    [ [Object], [Object] ] ] ]
+skipping x
+lol
+skipping [ 'x',
+  [ { name: 'class', start: [Object], end: [Object] },
+    'lol',
+    [ [Object], 'Object' ],
+    [ [Object], [Object] ] ] ]
+skipping [ [ 'x', [ [Object], 'lol', [Object], [Object] ] ] ]
+skipping [ 'toplevel', [ [ [Object], [Object] ] ] ]
+skipping toplevel
+skipping [ [ { name: 'stat', start: [Object], end: [Object] },
+    [ [Object], [Object] ] ] ]
+[ { name: 'object',
+    start: 
+     { type: 'punc',
+       value: '{',
+       line: 0,
+       col: 1,
+       pos: 1,
+       endpos: 2,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'punc',
+       value: '}',
+       line: 0,
+       col: 16,
+       pos: 16,
+       endpos: 17,
+       nlb: false,
+       comments_before: [] } },
+  [ [ 'hi', [Object] ] ] ]
+skipping { name: 'stat',
+  start: 
+   { type: 'punc',
+     value: '(',
+     line: 0,
+     col: 0,
+     pos: 0,
+     endpos: 1,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 0,
+     col: 17,
+     pos: 17,
+     endpos: 18,
+     nlb: false,
+     comments_before: [] } }
+skipping stat
+skipping { type: 'punc',
+  value: '(',
+  line: 0,
+  col: 0,
+  pos: 0,
+  endpos: 1,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping (
+skipping 0
+skipping 0
+skipping 0
+skipping 1
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 0,
+  col: 17,
+  pos: 17,
+  endpos: 18,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 0
+skipping 17
+skipping 17
+skipping 18
+skipping false
+skipping []
+[ [ 'hi', [ [Object], [Object], 'log' ] ] ]
+skipping { name: 'object',
+  start: 
+   { type: 'punc',
+     value: '{',
+     line: 0,
+     col: 1,
+     pos: 1,
+     endpos: 2,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 0,
+     col: 16,
+     pos: 16,
+     endpos: 17,
+     nlb: false,
+     comments_before: [] } }
+skipping object
+skipping { type: 'punc',
+  value: '{',
+  line: 0,
+  col: 1,
+  pos: 1,
+  endpos: 2,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping {
+skipping 0
+skipping 1
+skipping 1
+skipping 2
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 0,
+  col: 16,
+  pos: 16,
+  endpos: 17,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 0
+skipping 16
+skipping 16
+skipping 17
+skipping false
+skipping []
+skipping [ [ 'hi', [ [Object], [Object], 'log' ] ] ]
+skipping [ 'hi',
+  [ { name: 'dot', start: [Object], end: [Object] },
+    [ 'name', 'console' ],
+    'log' ] ]
+skipping hi
+[ 'name', 'console' ]
+skipping { name: 'dot',
+  start: 
+   { type: 'name',
+     value: 'console',
+     line: 0,
+     col: 5,
+     pos: 5,
+     endpos: 12,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'log',
+     line: 0,
+     col: 13,
+     pos: 13,
+     endpos: 16,
+     nlb: false,
+     comments_before: [] } }
+skipping dot
+skipping { type: 'name',
+  value: 'console',
+  line: 0,
+  col: 5,
+  pos: 5,
+  endpos: 12,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping console
+skipping 0
+skipping 5
+skipping 5
+skipping 12
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'log',
+  line: 0,
+  col: 13,
+  pos: 13,
+  endpos: 16,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping log
+skipping 0
+skipping 13
+skipping 13
+skipping 16
+skipping false
+skipping []
+skipping [ 'name', 'console' ]
+skipping name
+skipping console
+skipping log
+skipping { name: 'class',
+  start: 
+   { type: 'operator',
+     value: 'class',
+     line: 16,
+     col: 12,
+     pos: 245,
+     endpos: 250,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 18,
+     col: 4,
+     pos: 297,
+     endpos: 298,
+     nlb: true,
+     comments_before: [] } }
+skipping class
+skipping { type: 'operator',
+  value: 'class',
+  line: 16,
+  col: 12,
+  pos: 245,
+  endpos: 250,
+  nlb: false,
+  comments_before: [] }
+skipping operator
+skipping class
+skipping 16
+skipping 12
+skipping 245
+skipping 250
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 18,
+  col: 4,
+  pos: 297,
+  endpos: 298,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 18
+skipping 4
+skipping 297
+skipping 298
+skipping true
+skipping []
+skipping lol
+Object
+skipping { name: 'name',
+  start: 
+   { type: 'name',
+     value: 'Object',
+     line: 16,
+     col: 30,
+     pos: 263,
+     endpos: 269,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'Object',
+     line: 16,
+     col: 30,
+     pos: 263,
+     endpos: 269,
+     nlb: false,
+     comments_before: [] } }
+skipping name
+skipping { type: 'name',
+  value: 'Object',
+  line: 16,
+  col: 30,
+  pos: 263,
+  endpos: 269,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping Object
+skipping 16
+skipping 30
+skipping 263
+skipping 269
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'Object',
+  line: 16,
+  col: 30,
+  pos: 263,
+  endpos: 269,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping Object
+skipping 16
+skipping 30
+skipping 263
+skipping 269
+skipping false
+skipping []
+skipping Object
+[ [ 'hi', [ [Object], [Object], 'log' ] ] ]
+skipping { name: 'object',
+  start: 
+   { type: 'punc',
+     value: '{',
+     line: 16,
+     col: 37,
+     pos: 270,
+     endpos: 271,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: '}',
+     line: 18,
+     col: 4,
+     pos: 297,
+     endpos: 298,
+     nlb: true,
+     comments_before: [] } }
+skipping object
+skipping { type: 'punc',
+  value: '{',
+  line: 16,
+  col: 37,
+  pos: 270,
+  endpos: 271,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping {
+skipping 16
+skipping 37
+skipping 270
+skipping 271
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: '}',
+  line: 18,
+  col: 4,
+  pos: 297,
+  endpos: 298,
+  nlb: true,
+  comments_before: [] }
+skipping punc
+skipping }
+skipping 18
+skipping 4
+skipping 297
+skipping 298
+skipping true
+skipping []
+skipping [ [ 'hi', [ [Object], [Object], 'log' ] ] ]
+skipping [ 'hi',
+  [ { name: 'dot', start: [Object], end: [Object] },
+    [ 'name', 'console' ],
+    'log' ] ]
+skipping hi
+[ 'name', 'console' ]
+skipping { name: 'dot',
+  start: 
+   { type: 'name',
+     value: 'console',
+     line: 17,
+     col: 9,
+     pos: 281,
+     endpos: 288,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'log',
+     line: 17,
+     col: 17,
+     pos: 289,
+     endpos: 292,
+     nlb: false,
+     comments_before: [] } }
+skipping dot
+skipping { type: 'name',
+  value: 'console',
+  line: 17,
+  col: 9,
+  pos: 281,
+  endpos: 288,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping console
+skipping 17
+skipping 9
+skipping 281
+skipping 288
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'log',
+  line: 17,
+  col: 17,
+  pos: 289,
+  endpos: 292,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping log
+skipping 17
+skipping 17
+skipping 289
+skipping 292
+skipping false
+skipping []
+skipping [ 'name', 'console' ]
+skipping name
+skipping console
+skipping log
+[ { name: 'binary',
+    start: 
+     { type: 'string',
+       value: 'meow ',
+       line: 19,
+       col: 11,
+       pos: 310,
+       endpos: 317,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'punc',
+       value: ')',
+       line: 19,
+       col: 42,
+       pos: 341,
+       endpos: 342,
+       nlb: false,
+       comments_before: [] } },
+  '+',
+  [ { name: 'string', start: [Object], end: [Object] }, 'meow ' ],
+  [ 'unary-prefix', ':', [ [Object], [Object], [] ] ] ]
+skipping { name: 'return',
+  start: 
+   { type: 'keyword',
+     value: 'return',
+     line: 19,
+     col: 4,
+     pos: 303,
+     endpos: 309,
+     nlb: true,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 19,
+     col: 42,
+     pos: 341,
+     endpos: 342,
+     nlb: false,
+     comments_before: [] } }
+skipping return
+skipping { type: 'keyword',
+  value: 'return',
+  line: 19,
+  col: 4,
+  pos: 303,
+  endpos: 309,
+  nlb: true,
+  comments_before: [] }
+skipping keyword
+skipping return
+skipping 19
+skipping 4
+skipping 303
+skipping 309
+skipping true
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 19,
+  col: 42,
+  pos: 341,
+  endpos: 342,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 19
+skipping 42
+skipping 341
+skipping 342
+skipping false
+skipping []
++
+skipping { name: 'binary',
+  start: 
+   { type: 'string',
+     value: 'meow ',
+     line: 19,
+     col: 11,
+     pos: 310,
+     endpos: 317,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 19,
+     col: 42,
+     pos: 341,
+     endpos: 342,
+     nlb: false,
+     comments_before: [] } }
+skipping binary
+skipping { type: 'string',
+  value: 'meow ',
+  line: 19,
+  col: 11,
+  pos: 310,
+  endpos: 317,
+  nlb: false,
+  comments_before: [] }
+skipping string
+skipping meow 
+skipping 19
+skipping 11
+skipping 310
+skipping 317
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 19,
+  col: 42,
+  pos: 341,
+  endpos: 342,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 19
+skipping 42
+skipping 341
+skipping 342
+skipping false
+skipping []
+skipping +
+meow 
+skipping { name: 'string',
+  start: 
+   { type: 'string',
+     value: 'meow ',
+     line: 19,
+     col: 11,
+     pos: 310,
+     endpos: 317,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'string',
+     value: 'meow ',
+     line: 19,
+     col: 11,
+     pos: 310,
+     endpos: 317,
+     nlb: false,
+     comments_before: [] } }
+skipping string
+skipping { type: 'string',
+  value: 'meow ',
+  line: 19,
+  col: 11,
+  pos: 310,
+  endpos: 317,
+  nlb: false,
+  comments_before: [] }
+skipping string
+skipping meow 
+skipping 19
+skipping 11
+skipping 310
+skipping 317
+skipping false
+skipping []
+skipping { type: 'string',
+  value: 'meow ',
+  line: 19,
+  col: 11,
+  pos: 310,
+  endpos: 317,
+  nlb: false,
+  comments_before: [] }
+skipping string
+skipping meow 
+skipping 19
+skipping 11
+skipping 310
+skipping 317
+skipping false
+skipping []
+skipping meow 
+skipping [ 'unary-prefix',
+  ':',
+  [ { name: 'call', start: [Object], end: [Object] },
+    [ 'dot', [Object], 'say_hi' ],
+    [] ] ]
+skipping unary-prefix
+skipping :
+[ 'dot', [ 'dot', [ 'name', 'Cat' ], 'superclass' ], 'say_hi' ]
+skipping { name: 'call',
+  start: 
+   { type: 'name',
+     value: 'Cat',
+     line: 19,
+     col: 20,
+     pos: 319,
+     endpos: 322,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 19,
+     col: 42,
+     pos: 341,
+     endpos: 342,
+     nlb: false,
+     comments_before: [] } }
+skipping call
+skipping { type: 'name',
+  value: 'Cat',
+  line: 19,
+  col: 20,
+  pos: 319,
+  endpos: 322,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping Cat
+skipping 19
+skipping 20
+skipping 319
+skipping 322
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 19,
+  col: 42,
+  pos: 341,
+  endpos: 342,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 19
+skipping 42
+skipping 341
+skipping 342
+skipping false
+skipping []
+skipping [ 'dot', [ 'dot', [ 'name', 'Cat' ], 'superclass' ], 'say_hi' ]
+skipping dot
+skipping [ 'dot', [ 'name', 'Cat' ], 'superclass' ]
+skipping dot
+skipping [ 'name', 'Cat' ]
+skipping name
+skipping Cat
+skipping superclass
+skipping say_hi
+skipping []
+[ [ 'cat', [ [Object], [Object], [] ] ],
+  [ 'log', [ [Object], [Object], 'log' ] ] ]
+skipping { name: 'var',
+  start: 
+   { type: 'keyword',
+     value: 'var',
+     line: 23,
+     col: 0,
+     pos: 354,
+     endpos: 357,
+     nlb: true,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'log',
+     line: 24,
+     col: 18,
+     pos: 390,
+     endpos: 393,
+     nlb: false,
+     comments_before: [] } }
+skipping var
+skipping { type: 'keyword',
+  value: 'var',
+  line: 23,
+  col: 0,
+  pos: 354,
+  endpos: 357,
+  nlb: true,
+  comments_before: [] }
+skipping keyword
+skipping var
+skipping 23
+skipping 0
+skipping 354
+skipping 357
+skipping true
+skipping []
+skipping { type: 'name',
+  value: 'log',
+  line: 24,
+  col: 18,
+  pos: 390,
+  endpos: 393,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping log
+skipping 24
+skipping 18
+skipping 390
+skipping 393
+skipping false
+skipping []
+skipping [ [ 'cat', [ [Object], [Object], [] ] ],
+  [ 'log', [ [Object], [Object], 'log' ] ] ]
+skipping [ 'cat',
+  [ { name: 'new', start: [Object], end: [Object] },
+    [ [Object], 'Cat' ],
+    [] ] ]
+skipping cat
+[ { name: 'name',
+    start: 
+     { type: 'name',
+       value: 'Cat',
+       line: 23,
+       col: 14,
+       pos: 368,
+       endpos: 371,
+       nlb: false,
+       comments_before: [] },
+    end: 
+     { type: 'name',
+       value: 'Cat',
+       line: 23,
+       col: 14,
+       pos: 368,
+       endpos: 371,
+       nlb: false,
+       comments_before: [] } },
+  'Cat' ]
+skipping { name: 'new',
+  start: 
+   { type: 'operator',
+     value: 'new',
+     line: 23,
+     col: 10,
+     pos: 364,
+     endpos: 367,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'Cat',
+     line: 23,
+     col: 14,
+     pos: 368,
+     endpos: 371,
+     nlb: false,
+     comments_before: [] } }
+skipping new
+skipping { type: 'operator',
+  value: 'new',
+  line: 23,
+  col: 10,
+  pos: 364,
+  endpos: 367,
+  nlb: false,
+  comments_before: [] }
+skipping operator
+skipping new
+skipping 23
+skipping 10
+skipping 364
+skipping 367
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'Cat',
+  line: 23,
+  col: 14,
+  pos: 368,
+  endpos: 371,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping Cat
+skipping 23
+skipping 14
+skipping 368
+skipping 371
+skipping false
+skipping []
+Cat
+skipping { name: 'name',
+  start: 
+   { type: 'name',
+     value: 'Cat',
+     line: 23,
+     col: 14,
+     pos: 368,
+     endpos: 371,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'Cat',
+     line: 23,
+     col: 14,
+     pos: 368,
+     endpos: 371,
+     nlb: false,
+     comments_before: [] } }
+skipping name
+skipping { type: 'name',
+  value: 'Cat',
+  line: 23,
+  col: 14,
+  pos: 368,
+  endpos: 371,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping Cat
+skipping 23
+skipping 14
+skipping 368
+skipping 371
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'Cat',
+  line: 23,
+  col: 14,
+  pos: 368,
+  endpos: 371,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping Cat
+skipping 23
+skipping 14
+skipping 368
+skipping 371
+skipping false
+skipping []
+skipping Cat
+skipping []
+skipping [ 'log',
+  [ { name: 'dot', start: [Object], end: [Object] },
+    [ 'name', 'console' ],
+    'log' ] ]
+skipping log
+[ 'name', 'console' ]
+skipping { name: 'dot',
+  start: 
+   { type: 'name',
+     value: 'console',
+     line: 24,
+     col: 10,
+     pos: 382,
+     endpos: 389,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'name',
+     value: 'log',
+     line: 24,
+     col: 18,
+     pos: 390,
+     endpos: 393,
+     nlb: false,
+     comments_before: [] } }
+skipping dot
+skipping { type: 'name',
+  value: 'console',
+  line: 24,
+  col: 10,
+  pos: 382,
+  endpos: 389,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping console
+skipping 24
+skipping 10
+skipping 382
+skipping 389
+skipping false
+skipping []
+skipping { type: 'name',
+  value: 'log',
+  line: 24,
+  col: 18,
+  pos: 390,
+  endpos: 393,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping log
+skipping 24
+skipping 18
+skipping 390
+skipping 393
+skipping false
+skipping []
+skipping [ 'name', 'console' ]
+skipping name
+skipping console
+skipping log
+[ { name: 'call',
+    start: 
+     { type: 'name',
+       value: 'log',
+       line: 26,
+       col: 0,
+       pos: 395,
+       endpos: 398,
+       nlb: true,
+       comments_before: [] },
+    end: 
+     { type: 'punc',
+       value: ')',
+       line: 26,
+       col: 16,
+       pos: 411,
+       endpos: 412,
+       nlb: false,
+       comments_before: [] } },
+  [ 'name', 'log' ],
+  [ [ [Object], [Object], [] ] ] ]
+skipping { name: 'stat',
+  start: 
+   { type: 'name',
+     value: 'log',
+     line: 26,
+     col: 0,
+     pos: 395,
+     endpos: 398,
+     nlb: true,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 26,
+     col: 16,
+     pos: 411,
+     endpos: 412,
+     nlb: false,
+     comments_before: [] } }
+skipping stat
+skipping { type: 'name',
+  value: 'log',
+  line: 26,
+  col: 0,
+  pos: 395,
+  endpos: 398,
+  nlb: true,
+  comments_before: [] }
+skipping name
+skipping log
+skipping 26
+skipping 0
+skipping 395
+skipping 398
+skipping true
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 26,
+  col: 16,
+  pos: 411,
+  endpos: 412,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 26
+skipping 16
+skipping 411
+skipping 412
+skipping false
+skipping []
+[ 'name', 'log' ]
+skipping { name: 'call',
+  start: 
+   { type: 'name',
+     value: 'log',
+     line: 26,
+     col: 0,
+     pos: 395,
+     endpos: 398,
+     nlb: true,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 26,
+     col: 16,
+     pos: 411,
+     endpos: 412,
+     nlb: false,
+     comments_before: [] } }
+skipping call
+skipping { type: 'name',
+  value: 'log',
+  line: 26,
+  col: 0,
+  pos: 395,
+  endpos: 398,
+  nlb: true,
+  comments_before: [] }
+skipping name
+skipping log
+skipping 26
+skipping 0
+skipping 395
+skipping 398
+skipping true
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 26,
+  col: 16,
+  pos: 411,
+  endpos: 412,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 26
+skipping 16
+skipping 411
+skipping 412
+skipping false
+skipping []
+skipping [ 'name', 'log' ]
+skipping name
+skipping log
+skipping [ [ { name: 'call', start: [Object], end: [Object] },
+    [ 'dot', [Object], 'say_hi' ],
+    [] ] ]
+[ 'dot', [ 'name', 'cat' ], 'say_hi' ]
+skipping { name: 'call',
+  start: 
+   { type: 'name',
+     value: 'cat',
+     line: 26,
+     col: 4,
+     pos: 399,
+     endpos: 402,
+     nlb: false,
+     comments_before: [] },
+  end: 
+   { type: 'punc',
+     value: ')',
+     line: 26,
+     col: 15,
+     pos: 410,
+     endpos: 411,
+     nlb: false,
+     comments_before: [] } }
+skipping call
+skipping { type: 'name',
+  value: 'cat',
+  line: 26,
+  col: 4,
+  pos: 399,
+  endpos: 402,
+  nlb: false,
+  comments_before: [] }
+skipping name
+skipping cat
+skipping 26
+skipping 4
+skipping 399
+skipping 402
+skipping false
+skipping []
+skipping { type: 'punc',
+  value: ')',
+  line: 26,
+  col: 15,
+  pos: 410,
+  endpos: 411,
+  nlb: false,
+  comments_before: [] }
+skipping punc
+skipping )
+skipping 26
+skipping 15
+skipping 410
+skipping 411
+skipping false
+skipping []
+skipping [ 'dot', [ 'name', 'cat' ], 'say_hi' ]
+skipping dot
+skipping [ 'name', 'cat' ]
+skipping name
+skipping cat
+skipping say_hi
+skipping []
