@@ -17,6 +17,7 @@ that desugars nicely to ES3/5. I've loosely adapted it here, along with two othe
 ## THE CLASS SYNTAX
 
 > `class [NAME] [extends EXPR] EXPR` 
+>
 > returns a Function
 
 ````javascript
@@ -33,7 +34,8 @@ var X = class {
 // desugars to:
 
 var X = function(x, y) {
-
+  if(this.init)
+    this.init.apply(this, [].slice.call(arguments))
 }
 
 X.prototype.init = function(x, y) {
@@ -71,6 +73,7 @@ class MyList extends {a:1} {
 ## THE BINARY TIGHT-BINDING LOOKUP OPERATOR
 
 > `[NAME | DOT | LOOKUP] : [NAME]`
+>
 > attempts to return a function bound to the LHS from an attribute on the RHS
 
 This may prove to be a bad idea.
@@ -107,7 +110,8 @@ An example:
 
 ## THE UNARY TIGHT-BINDING OPERATOR
 
-> : EXPR
+> `: EXPR`
+>
 > returns the function represented by EXPR bound to the current value of `this`.
 
 When used in a unary position, the `colon` binds the function to the right to the current value of `this`.
