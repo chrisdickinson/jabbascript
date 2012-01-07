@@ -34,7 +34,8 @@ var X = class {
 // desugars to:
 
 var X = function(x, y) {
-
+  if(this.init)
+    this.init.apply(this, [].slice.call(arguments))
 }
 
 X.prototype.init = function(x, y) {
