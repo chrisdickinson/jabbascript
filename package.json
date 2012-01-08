@@ -6,6 +6,9 @@
         "type" : "git",
         "url" : "git://github.com/chrisdickinson/jabbascript.git"
     },
+    "bin" : {
+        "jabba" : "./bin/jabba"
+    },
     "main" : "./index.js",
     "keywords" : [
         "javascript",
